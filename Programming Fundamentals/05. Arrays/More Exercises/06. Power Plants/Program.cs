@@ -24,12 +24,39 @@ namespace _06.Power_Plants
 				}
 			}
 
-			decimal getBlooms = (decimal) (bestPlantLife + numPlants - bestPlantIndex) / numPlants;
-			decimal sumBlooms = 0;
+			int daysLasted = 0;
 			int seasons = 0;
+			int bloomPeriod = 0;
+			int seasonPeriod = 0;
+			int blooms = 0;
+			
+			while (bestPlantLife > 0)
+			{
+				if (bloomPeriod == bestPlantIndex)
+				{
+					bestPlantLife++;
+					blooms++;
+				}
 
+				// plant has to be alive to bloom in season
+				if (seasonPeriod == numPlants - 1 && bestPlantLife > 1)
+				{
+					bestPlantLife++;
+					seasons++;
+					// -1 because it gets incremented immediately after
+					seasonPeriod = -1; 
+				}
 
-			int daysLasted = (int) sumBlooms + bestPlantLife;
+				if (bloomPeriod == numPlants - 1) 
+				{
+					bloomPeriod = -1;
+				}
+
+				daysLasted++;
+				bloomPeriod++;
+				seasonPeriod++;
+				bestPlantLife--;
+			}
 
 			if (seasons == 1)
 			{
