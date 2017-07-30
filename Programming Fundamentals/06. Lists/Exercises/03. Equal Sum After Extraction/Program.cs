@@ -13,6 +13,7 @@ namespace _03.Equal_Sum_After_Extraction
 			List<int> firstList = Console.ReadLine().Split().Select(int.Parse).ToList();
 			List<int> secondList = Console.ReadLine().Split().Select(int.Parse).ToList();
 
+			// we sort second list so we can easily locate repeating numbers
 			secondList.Sort();
 
 			/*
@@ -24,7 +25,7 @@ namespace _03.Equal_Sum_After_Extraction
 			{
 				if (secondList[i] == secondList[i - 1] && firstList.Contains(secondList[i]))
 				{
-					int removeNum = firstList[i];
+					int removeNum = secondList[i];
 
 					// remove all instances of removeNum in first list and second list
 					firstList.RemoveAll(a => a == removeNum);
@@ -38,26 +39,8 @@ namespace _03.Equal_Sum_After_Extraction
 				secondList.Remove(firstList[i]);
 			}
 
-			int sumFirstList;
-			int sumSecondList;
-
-			if (firstList.Any())
-			{
-				sumFirstList = firstList.Sum();
-			}
-			else
-			{
-				sumFirstList = 0;
-			}
-
-			if (secondList.Any())
-			{
-				sumSecondList = secondList.Sum();
-			}
-			else
-			{
-				sumSecondList = 0;
-			}
+			int sumFirstList = firstList.Sum();
+			int sumSecondList = secondList.Sum();
 
 			if (sumFirstList == sumSecondList)
 			{
