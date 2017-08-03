@@ -11,13 +11,16 @@ namespace _02.Binary_Search
 		static void Main(string[] args)
 		{
 			List<int> num = Console.ReadLine().Split().Select(int.Parse).ToList();
+			List<int> sortedNum = new List<int> (num);
+			sortedNum.Sort();
 			int searchedNum = int.Parse(Console.ReadLine());
-			num.Sort();
 			
 
-			int[] getInfo = BinarySearch(num, searchedNum);
+			// Binary search works with sorted list
+			int[] getInfo = BinarySearch(sortedNum, searchedNum);
 			if (getInfo[1] == -1)
 			{
+				// Linear search works with unsorted list
 				Console.WriteLine("No");
 				Console.WriteLine("Linear search made {0} iterations", num.Count);
 			}
@@ -25,7 +28,7 @@ namespace _02.Binary_Search
 			{
 				int foundIndex = LinearSearch(num, searchedNum);
 				Console.WriteLine("Yes");
-				Console.WriteLine("Linear search made {0} iterations", foundIndex + 1);
+				Console.WriteLine("Linear search made {0} iterations", foundIndex);
 			}
 			Console.WriteLine("Binary search made {0} iterations", getInfo[0]);
 		}
@@ -74,7 +77,7 @@ namespace _02.Binary_Search
 				}
 			}
 
-			return foundIndex;
+			return foundIndex + 1;
 		}
 	}
 }

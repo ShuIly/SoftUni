@@ -10,56 +10,61 @@ namespace _01.Rabbit_Hole
 	{
 		static void Main(string[] args)
 		{
-			string[] str = Console.ReadLine().Split();
+			List<string> command = Console.ReadLine().Split(' ').ToList();
 			int energy = int.Parse(Console.ReadLine());
-			int strCount = str.Length;
 
-			for (int i = 0; i < strCount; i++)
+			int currentIndex = 0;
+			bool isDeadFromBomb = false;
+
+			while (energy > 0)
 			{
-				if (str[i] == "RabbitHole")
+				isDeadFromBomb = false;
+				string[] currentCommand = command[currentIndex].Split('|');
+				string action = currentCommand[0];
+
+				if (action == "RabbitHole")
 				{
 					Console.WriteLine("You have 5 years to save Kennedy!");
 					break;
 				}
 
-				string[] command = str[i].Split('|');
+				int value = int.Parse(currentCommand[1]);
 
-				string direction = command[0];
-				int value = int.Parse(command[1]);
+				switch (action)
+				{
 
-				if (direction == "Left")
-				{
-					i -= value;
-					energy -= value;
-				}
-				else if (direction == "Right")
-				{
-					energy -= value;
-					if (value + i >= strCount)
-					{
-						while (value + i >= strCount)
-						{
-							value -= strCount;
-						}
+					case "Left":
+						currentIndex = Math.Abs(currentIndex - value) % command.Count;
+						energy -= value;
+						break;
 
-						i = value;
-					}
-					else
-					{
-						i += value;
-					}
-				}
-				else if (direction == "Bomb")
-				{
-					// -1 because it gets immediately incremented
-					i = -1;
-					energy -= value;
+					case "Right":
+						currentIndex = (currentIndex + value) % command.Count;
+						energy -= value;
+						break;
+
+					case "Bomb":
+						command.RemoveAt(currentIndex);
+						currentIndex = 0;
+						energy -= value;
+						isDeadFromBomb = true;
+						break;
 				}
 
-				if (energy <= 0)
+				if (command[command.Count - 1] != "RabbitHole")
+				{
+					command.RemoveAt(command.Count - 1);
+				}
+				command.Add("Bomb|" + energy);
+
+
+				if (energy <= 0 && isDeadFromBomb)
+				{
+					Console.WriteLine("You are dead due to bomb explosion!");
+				}
+				else if (energy <= 0)
 				{
 					Console.WriteLine("You are tired. You can't continue the mission.");
-					break;
 				}
 			}
 		}
