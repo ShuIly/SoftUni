@@ -10,7 +10,7 @@ namespace _02.Default_Values
 	{
 		static void Main(string[] args)
 		{
-			Dictionary<string, string> dict = new Dictionary<string, string>();
+			var dict = new Dictionary<string, string>();
 			string command = Console.ReadLine();
 			while (command != "end")
 			{

@@ -10,12 +10,9 @@ namespace _04.SoftUni_Beer_Pong
 	{
 		static void Main(string[] args)
 		{
-			Dictionary<string, Dictionary<string, int>> teams = 
-				new Dictionary<string, Dictionary<string, int>>();
-			Dictionary<string, int> teamSize =
-				new Dictionary<string, int>();
-			Dictionary<string, long> teamPoints =
-				new Dictionary<string, long>();
+			var teams = new Dictionary<string, Dictionary<string, int>>();
+			var teamSize = new Dictionary<string, int>();
+			var teamPoints = new Dictionary<string, long>();
 
 			string command = Console.ReadLine();
 

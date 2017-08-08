@@ -10,9 +10,7 @@ namespace _04.SoftUni_Beer_Pong_V2
 	{
 		static void Main(string[] args)
 		{
-			Dictionary<string, Dictionary<string, int>> teams =
-				new Dictionary<string, Dictionary<string, int>>();
-
+			var teams = new Dictionary<string, Dictionary<string, int>>();
 			string command = Console.ReadLine();
 
 			while (command != "stop the game")

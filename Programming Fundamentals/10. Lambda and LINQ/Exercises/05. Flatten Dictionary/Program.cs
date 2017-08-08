@@ -10,11 +10,8 @@ namespace _05.Flatten_Dictionary
 	{
 		static void Main(string[] args)
 		{
-			Dictionary<string, Dictionary<string, string>> products =
-				new Dictionary<string, Dictionary<string, string>>();
-
-			Dictionary<string, List<string>> flattenedProducts =
-				new Dictionary<string, List<string>>();
+			var products = new Dictionary<string, Dictionary<string, string>>();
+			var flattenedProducts = new Dictionary<string, List<string>>();
 
 			string input = Console.ReadLine();
 			while (input != "end")

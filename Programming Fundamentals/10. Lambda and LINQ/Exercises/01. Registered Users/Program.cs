@@ -11,7 +11,7 @@ namespace _01.Registered_Users
 	{
 		static void Main(string[] args)
 		{
-			Dictionary<string, DateTime> registeredUsers = new Dictionary<string, DateTime>();
+			var registeredUsers = new Dictionary<string, DateTime>();
 			string command = Console.ReadLine();
 
 			while (command != "end")

@@ -10,7 +10,7 @@ namespace _03.Shopping_Spree
 	{
 		static void Main(string[] args)
 		{
-			Dictionary<string, decimal> products = new Dictionary<string, decimal>();
+			var products = new Dictionary<string, decimal>();
 			decimal budget = decimal.Parse(Console.ReadLine());
 			string command = Console.ReadLine();
 
