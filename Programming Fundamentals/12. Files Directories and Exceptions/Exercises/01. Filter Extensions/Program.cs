@@ -5,23 +5,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _05.Folder_Size
+namespace _01.Filter_Extensions
 {
 	class Program
 	{
 		static void Main(string[] args)
 		{
-			string[] files = Directory.GetFiles("TestFolder");
-			double sum = 0;
+			string extention = Console.ReadLine();
+			string[] files = Directory.GetFiles("input", $"*.{extention}");
 
 			foreach (string file in files)
 			{
-				FileInfo fileInfo = new FileInfo(file);
-				sum += fileInfo.Length;
+				Console.WriteLine(Path.GetFileName(file));
 			}
-
-			sum = sum / 1024;
-			Console.WriteLine(sum);
 		}
 	}
 }
