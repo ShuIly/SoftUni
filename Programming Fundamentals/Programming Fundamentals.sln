@@ -277,6 +277,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. HTML Contents", "12. Fi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. User Database", "12. Files Directories and Exceptions\Exercises\03. User Database\03. User Database.csproj", "{4CCD6D6C-B77A-4062-8A7F-9961A882DD8B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Re-Directory", "12. Files Directories and Exceptions\Exercises\04. Re-Directory\04. Re-Directory.csproj", "{027E0D39-D3AF-4BD0-8562-BC08F35C7F2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Products", "12. Files Directories and Exceptions\Exercises\05. Products\05. Products.csproj", "{D21384DF-399B-485D-AE8F-2FD6E148351A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -831,6 +835,14 @@ Global
 		{4CCD6D6C-B77A-4062-8A7F-9961A882DD8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CCD6D6C-B77A-4062-8A7F-9961A882DD8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CCD6D6C-B77A-4062-8A7F-9961A882DD8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{027E0D39-D3AF-4BD0-8562-BC08F35C7F2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{027E0D39-D3AF-4BD0-8562-BC08F35C7F2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{027E0D39-D3AF-4BD0-8562-BC08F35C7F2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{027E0D39-D3AF-4BD0-8562-BC08F35C7F2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D21384DF-399B-485D-AE8F-2FD6E148351A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D21384DF-399B-485D-AE8F-2FD6E148351A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D21384DF-399B-485D-AE8F-2FD6E148351A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D21384DF-399B-485D-AE8F-2FD6E148351A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
