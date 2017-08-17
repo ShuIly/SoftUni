@@ -313,6 +313,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. JSON Stringify", "13. S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. JSON Parse", "13. String and Text Processing\Exercises\04. JSON Parse\04. JSON Parse.csproj", "{ED5761D1-EBCE-4CCE-B894-8F85FB8BA786}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Points Counter", "13. String and Text Processing\Exercises\05. Points Counter\05. Points Counter.csproj", "{837BCB00-AF4C-4166-92D3-3E14C461E7D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Sentence Split", "13. String and Text Processing\Exercises\06. Sentence Split\06. Sentence Split.csproj", "{5B90F236-ABEA-4B4E-8151-B049B7D912C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Capitalize Words", "13. String and Text Processing\Exercises\07. Capitalize Words\07. Capitalize Words.csproj", "{9CFBD16D-4FAB-478B-9D5F-B53756412491}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -939,6 +945,18 @@ Global
 		{ED5761D1-EBCE-4CCE-B894-8F85FB8BA786}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED5761D1-EBCE-4CCE-B894-8F85FB8BA786}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED5761D1-EBCE-4CCE-B894-8F85FB8BA786}.Release|Any CPU.Build.0 = Release|Any CPU
+		{837BCB00-AF4C-4166-92D3-3E14C461E7D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{837BCB00-AF4C-4166-92D3-3E14C461E7D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{837BCB00-AF4C-4166-92D3-3E14C461E7D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{837BCB00-AF4C-4166-92D3-3E14C461E7D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B90F236-ABEA-4B4E-8151-B049B7D912C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B90F236-ABEA-4B4E-8151-B049B7D912C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B90F236-ABEA-4B4E-8151-B049B7D912C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B90F236-ABEA-4B4E-8151-B049B7D912C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CFBD16D-4FAB-478B-9D5F-B53756412491}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CFBD16D-4FAB-478B-9D5F-B53756412491}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CFBD16D-4FAB-478B-9D5F-B53756412491}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CFBD16D-4FAB-478B-9D5F-B53756412491}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
