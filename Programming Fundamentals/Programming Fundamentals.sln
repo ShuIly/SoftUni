@@ -357,6 +357,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Grocery Shop", "14. Reg
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. SoftUni Messages", "14. Regular Expressions\Exercises\05. SoftUni Messages\05. SoftUni Messages.csproj", "{E3CC9B0A-7739-47FD-A7F5-84AE19E4D27F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Fish Statistics", "14. Regular Expressions\Exercises\06. Fish Statistics\06. Fish Statistics.csproj", "{2D3AEA4F-D41E-4909-A4EF-1227B95D537D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Happiness Index", "14. Regular Expressions\Exercises\07. Happiness Index\07. Happiness Index.csproj", "{74F01983-6911-43AF-95AA-289D4A748CEA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1071,6 +1075,14 @@ Global
 		{E3CC9B0A-7739-47FD-A7F5-84AE19E4D27F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3CC9B0A-7739-47FD-A7F5-84AE19E4D27F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3CC9B0A-7739-47FD-A7F5-84AE19E4D27F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D3AEA4F-D41E-4909-A4EF-1227B95D537D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D3AEA4F-D41E-4909-A4EF-1227B95D537D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D3AEA4F-D41E-4909-A4EF-1227B95D537D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D3AEA4F-D41E-4909-A4EF-1227B95D537D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74F01983-6911-43AF-95AA-289D4A748CEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74F01983-6911-43AF-95AA-289D4A748CEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74F01983-6911-43AF-95AA-289D4A748CEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74F01983-6911-43AF-95AA-289D4A748CEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
