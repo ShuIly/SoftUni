@@ -1,0 +1,127 @@
+@import "https://fonts.googleapis.com/css?family=Lato";
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    padding: 60px;
+}
+
+main {
+    max-width: 700px;
+    display: inline-block;
+}
+
+input,
+textarea {
+    outline: none;
+}
+
+.main-title {
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+
+.main-info {
+    margin-bottom: 25px;
+    color: #808083;
+}
+
+label {
+    display: inline-block;
+}
+
+.label-input {
+    width: 300px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+.label-span {
+    margin-bottom: 10px;
+    display: block;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    padding: 10px 30px;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    border: 1px solid #E8771F;
+    font-weight: bold;
+    background: #E8771F;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    display: block;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2)
+}
+
+input[type="submit"]:hover {
+    background: #e84c00;
+    cursor: pointer;
+}
+
+aside {
+    max-width: 280px;
+    margin-top: 50px;
+    margin-left: 30px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.contacts {
+    margin-bottom: 50px;
+}
+
+.contact-title {
+    font-size: 1.2em;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.contact-container {
+    margin-left: 25px;
+    position: relative;
+}
+
+.contact-container::before {
+    font-family: FontAwesome, sans-serif;
+    font-size: 1.3em;
+    color: #00B2A9;
+    position: absolute;
+    left: -25px;
+    top: 0;
+}
+
+.phone-number-container::before {
+    content: '\f095';
+}
+
+.email-container::before {
+    content: '\f003';
+}
+
+.address-container::before {
+    content: '\f041';
+}
+
+.opening-hours-container::before {
+    content: '\F073';
+}
+
+.contact-title::after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    background: #CFCFCF;
+}

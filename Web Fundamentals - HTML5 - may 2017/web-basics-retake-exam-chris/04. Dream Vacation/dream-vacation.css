@@ -1,0 +1,185 @@
+@import "https://fonts.googleapis.com/css?family=Lato";
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+}
+
+header {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
+        url("Images/background.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.header-wrapper {
+    max-width: 1200px;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+.logo-image-container {
+    display: inline-block;
+}
+
+.header-list {
+    margin-top: 10px;
+    float: right;
+}
+
+.header-list-item {
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.header-item-link {
+    font-size: 0.9em;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header-title-container {
+    padding: 250px 0 350px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.header-title {
+    font-size: 4.3em;
+    margin-bottom: 5px;
+    font-weight: 100;
+}
+
+.header-subtitle {
+    font-size: 1.6em;
+    font-weight: 100;
+}
+
+.offers-section {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #F5F5F5;
+}
+
+.offers-section-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.offers-title-container {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.offers-section-title {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+}
+
+.offers-section-subtitle {
+    font-size: 1.2em;
+    color: #888888;
+}
+
+.offer-container {
+    margin: 0 14px 40px;
+    display: inline-block;
+    text-align: left;
+    background: #FFFFFF;
+    box-shadow: 0 0 9px rgba(0, 0, 0, 0.2)
+}
+
+.offer-info-container {
+    padding: 15px 30px;
+}
+
+.offer-title {
+    font-size: 1.3em;
+    display: inline-block;
+}
+
+.offer-price {
+    font-size: 1.7em;
+    font-weight: 100;
+    float: right;
+}
+
+.testimonials-section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.testimonials-title-container {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.testimonial-author-image {
+    border-radius: 100%;
+}
+
+.testimonials-title {
+    font-size: 2.5em;
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+
+.testimonials-subtitle {
+    font-size: 1.1em;
+    font-weight: 100;
+    color: #8D8D8D;
+}
+
+.testimonial-container {
+    max-width: 380px;
+    margin: 20px 20px;
+    display: inline-block;
+}
+
+.testimonial-author {
+    margin: 20px 0;
+}
+
+.testimonial-info {
+    font-size: 1em;
+    font-style: italic;
+    color: #B2B2B2;
+}
+
+footer {
+    padding: 20px 0;
+
+}
+
+.footer-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.copyright {
+    color: #909090;
+    display: inline-block;
+}
+
+.footer-list {
+    float: right;
+}
+
+.footer-list-item {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.footer-item-link {
+    color: #909090;
+    text-decoration: none;
+}
