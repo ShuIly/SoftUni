@@ -13,6 +13,15 @@
     </style> 
 </head>
 <body>
-<!--Write your PHP Script here-->
+    <?php
+        for ($i = 0; $i < 255; $i += 51) {
+            $shades = $i;
+            for ($j = 0; $j < 10; $j++) {
+                echo "<div style='background-color: rgb($shades, $shades, $shades)'></div>\n";
+                $shades += 5;
+            }
+            echo "</br>\n";
+        }
+    ?>
 </body>
 </html>

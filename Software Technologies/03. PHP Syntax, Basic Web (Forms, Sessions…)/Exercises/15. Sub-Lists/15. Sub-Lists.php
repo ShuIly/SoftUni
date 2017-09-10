@@ -19,13 +19,13 @@
             $listNum = intval($_GET['num1']);
             $sublistNum = intval($_GET['num2']);
             for ($i = 1; $i <= $listNum; ++$i) {
-                echo "    <li>List $i</br>   <ul>";
+                echo "\t<li>List $i\n\t\t<ul>\n";
                 for ($j = 1; $j <= $sublistNum; ++$j) {
-                    echo "           <li>";
-                    echo "               Element $i.$j";
-                    echo "           </li>";
+                    echo "\t\t\t<li>\n\t\t\t";
+                    echo "\t\t\tElement $i.$j\n";
+                    echo "\t\t\t</li>\n";
                 }
-                echo "       </ul>";
+                echo "\t\t</ul>\n\t</li>";
             }
         ?>
 	</ul>

@@ -24,7 +24,15 @@
             Blue
         </td>
     </tr>
-<!--Write your PHP Script here-->
+    <?php
+        for ($i = 51; $i <= 255; $i += 51) {
+            echo "<tr>\n";
+                echo "\t<td style='background-color: rgb($i, 0, 0)'></td>\n";
+                echo "\t<td style='background-color: rgb(0, $i, 0)'></td>\n";
+                echo "\t<td style='background-color: rgb(0, 0, $i)'></td>\n";
+            echo "</tr>\n";
+        }
+    ?>
 </table>
 </body>
 </html>
