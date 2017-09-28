@@ -5,7 +5,10 @@ function getMultKeys(args) {
         let inputTokens = args[i].split(' ');
         let key = inputTokens[0];
         let value = inputTokens[1];
-        dict[key].push(value);
+        if (key in dict)
+            dict[key].push(value);
+        else
+            dict[key] = [value];
     }
     let searchedKey = args[args.length - 1];
     if (dict[searchedKey] === undefined)
