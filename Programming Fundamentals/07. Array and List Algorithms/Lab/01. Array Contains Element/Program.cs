@@ -8,6 +8,7 @@ namespace _01.Array_Contains_Element
 {
 	class Program
 	{
+		// This is a program
 		static void Main(string[] args)
 		{
 			int[] num = Console.ReadLine().Split().Select(int.Parse).ToArray();
