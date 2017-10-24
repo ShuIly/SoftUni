@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Reverse Strings", "01. Stacks and Queues\Lab\1. Reverse Strings\01. Reverse Strings.csproj", "{FAA51EC1-FC7E-4765-B6DC-61D02E447114}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Stacks and Queues", "01. Stacks and Queues", "{137629C1-841D-4BEB-B19E-123CF20C337E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab", "Lab", "{A4501912-CC4C-4073-AAF5-37D24AC73C4B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercises", "Exercises", "{38F7F13D-591B-472D-B4C3-DF7ABC965F8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Simple Calculator", "01. Stacks and Queues\Lab\02. Simple Calculator\02. Simple Calculator.csproj", "{89A45ADB-15BD-40B2-A8C9-EFC117F0004E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Decimal to Binary Converter", "01. Stacks and Queues\Lab\3. Decimal to Binary Converter\03. Decimal to Binary Converter.csproj", "{8CE0340C-F620-408C-8840-6F3131587F10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Matching Brackets", "01. Stacks and Queues\Lab\04. Matching Brackets\04. Matching Brackets.csproj", "{7DD9532E-0404-4ED0-88E8-C85535E54681}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. HotPotato", "01. Stacks and Queues\Lab\05. HotPotato\05. HotPotato.csproj", "{99DF8422-B82B-4855-8A5A-7474C11AC6C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Math Potato", "01. Stacks and Queues\Lab\06. Math Potato\06. Math Potato.csproj", "{C8DBF5D5-21B3-4084-ADEB-4134FA33530C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAA51EC1-FC7E-4765-B6DC-61D02E447114}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAA51EC1-FC7E-4765-B6DC-61D02E447114}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAA51EC1-FC7E-4765-B6DC-61D02E447114}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAA51EC1-FC7E-4765-B6DC-61D02E447114}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89A45ADB-15BD-40B2-A8C9-EFC117F0004E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89A45ADB-15BD-40B2-A8C9-EFC117F0004E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89A45ADB-15BD-40B2-A8C9-EFC117F0004E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89A45ADB-15BD-40B2-A8C9-EFC117F0004E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CE0340C-F620-408C-8840-6F3131587F10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CE0340C-F620-408C-8840-6F3131587F10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CE0340C-F620-408C-8840-6F3131587F10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CE0340C-F620-408C-8840-6F3131587F10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DD9532E-0404-4ED0-88E8-C85535E54681}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DD9532E-0404-4ED0-88E8-C85535E54681}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DD9532E-0404-4ED0-88E8-C85535E54681}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DD9532E-0404-4ED0-88E8-C85535E54681}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99DF8422-B82B-4855-8A5A-7474C11AC6C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99DF8422-B82B-4855-8A5A-7474C11AC6C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99DF8422-B82B-4855-8A5A-7474C11AC6C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99DF8422-B82B-4855-8A5A-7474C11AC6C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8DBF5D5-21B3-4084-ADEB-4134FA33530C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8DBF5D5-21B3-4084-ADEB-4134FA33530C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8DBF5D5-21B3-4084-ADEB-4134FA33530C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8DBF5D5-21B3-4084-ADEB-4134FA33530C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FAA51EC1-FC7E-4765-B6DC-61D02E447114} = {A4501912-CC4C-4073-AAF5-37D24AC73C4B}
+		{A4501912-CC4C-4073-AAF5-37D24AC73C4B} = {137629C1-841D-4BEB-B19E-123CF20C337E}
+		{38F7F13D-591B-472D-B4C3-DF7ABC965F8C} = {137629C1-841D-4BEB-B19E-123CF20C337E}
+		{89A45ADB-15BD-40B2-A8C9-EFC117F0004E} = {A4501912-CC4C-4073-AAF5-37D24AC73C4B}
+		{8CE0340C-F620-408C-8840-6F3131587F10} = {A4501912-CC4C-4073-AAF5-37D24AC73C4B}
+		{7DD9532E-0404-4ED0-88E8-C85535E54681} = {A4501912-CC4C-4073-AAF5-37D24AC73C4B}
+		{99DF8422-B82B-4855-8A5A-7474C11AC6C3} = {A4501912-CC4C-4073-AAF5-37D24AC73C4B}
+		{C8DBF5D5-21B3-4084-ADEB-4134FA33530C} = {A4501912-CC4C-4073-AAF5-37D24AC73C4B}
+	EndGlobalSection
+EndGlobal

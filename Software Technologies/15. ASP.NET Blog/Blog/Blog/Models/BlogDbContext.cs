@@ -3,9 +3,9 @@
 namespace Blog.Models
 {
 
-    public class ApplicationDbContext : IdentityDbContext<BlogDbContext>
+    public class BlogDbContext : IdentityDbContext<BlogDbContext>
     {
-        public ApplicationDbContext()
+        public BlogDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)
         {
         }
