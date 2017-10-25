@@ -5,7 +5,7 @@ namespace _06.Math_Potato
 {
 	class Program
 	{
-		// Simple algorithm for finding if number is prime.
+		// Lazy algorithm for finding if number is prime.
 		// Could have used Sieve of Eratosthenes but that's too much work.
 		static bool IsPrime(int num)
 		{
@@ -15,10 +15,12 @@ namespace _06.Math_Potato
 			int sqrtNum = (int) Math.Sqrt(num);
 			int incrementor = 0;
 
-			for (int i = 2; i <= sqrtNum; i++)
+			for (int i = 2; i <= sqrtNum; i += incrementor)
 			{
 				if (num % i == 0)
 					return false;
+
+				incrementor++;
 			}
 
 			return true;
@@ -35,7 +37,6 @@ namespace _06.Math_Potato
 				{
 					kidsQueue.Enqueue(kidsQueue.Dequeue());
 				}
-
 
 				if (IsPrime(cycles))
 					Console.WriteLine($"Prime {kidsQueue.Peek()}");
