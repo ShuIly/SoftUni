@@ -23,15 +23,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Decimal to Binary Conve
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Reverse Numbers with Stack", "01. Stacks and Queues\Exercises\01. Reverse Numbers with Stack\01. Reverse Numbers with Stack.csproj", "{6DB35CBC-5463-47E0-AE8C-D36CFBC5ED04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Basic Stack Operations", "01. Stacks and Queues\Exercises\02. Basic Stack Operations\02. Basic Stack Operations.csproj", "{DD888D97-7D3F-4932-B004-540527679BC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Basic Stack Operations", "01. Stacks and Queues\Exercises\02. Basic Stack Operations\02. Basic Stack Operations.csproj", "{DD888D97-7D3F-4932-B004-540527679BC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Maximum Element", "01. Stacks and Queues\Exercises\03. Maximum Element\03. Maximum Element.csproj", "{508A70A2-5E21-422C-AB34-22891E8028CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Maximum Element", "01. Stacks and Queues\Exercises\03. Maximum Element\03. Maximum Element.csproj", "{508A70A2-5E21-422C-AB34-22891E8028CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Basic Queue Operations", "01. Stacks and Queues\Exercises\04. Basic Queue Operations\04. Basic Queue Operations.csproj", "{003DAB20-AB08-452B-AF65-296682BF02AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Basic Queue Operations", "01. Stacks and Queues\Exercises\04. Basic Queue Operations\04. Basic Queue Operations.csproj", "{003DAB20-AB08-452B-AF65-296682BF02AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Calculate Sequence with Queue", "01. Stacks and Queues\Exercises\05. Calculate Sequence with Queue\05. Calculate Sequence with Queue.csproj", "{1D270D73-5631-44B5-B4A5-6BEC3B50EC64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. Calculate Sequence with Queue", "01. Stacks and Queues\Exercises\05. Calculate Sequence with Queue\05. Calculate Sequence with Queue.csproj", "{1D270D73-5631-44B5-B4A5-6BEC3B50EC64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Truck Tour", "01. Stacks and Queues\Exercises\06. Truck Tour\06. Truck Tour.csproj", "{47C6A317-8AB8-46CD-B083-5E06EB514301}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06. Truck Tour", "01. Stacks and Queues\Exercises\06. Truck Tour\06. Truck Tour.csproj", "{47C6A317-8AB8-46CD-B083-5E06EB514301}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Balanced Parentheses", "01. Stacks and Queues\Exercises\07. Balanced Parentheses\07. Balanced Parentheses.csproj", "{2E4CFDFC-7407-44CD-B30E-1EACFAEFF5DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Recursive Fibonacci", "01. Stacks and Queues\Exercises\08. Recursive Fibonacci\08. Recursive Fibonacci.csproj", "{9B626E3E-4DAF-4514-B749-2C327AC35445}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Stack Fibonacci", "01. Stacks and Queues\Exercises\09. Stack Fibonacci\09. Stack Fibonacci.csproj", "{205652D8-5279-4093-98F6-4A059FE61458}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Simple Text Editor", "01. Stacks and Queues\Exercises\10. Simple Text Editor\10. Simple Text Editor.csproj", "{0904C299-47CA-4E54-A2A7-F6C6E78829CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Poisonous Plants", "01. Stacks and Queues\Exercises\11. Poisonous Plants\11. Poisonous Plants.csproj", "{2A850E63-CE72-4A55-AF67-E16B33B6D769}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Poisonous Plants V2", "11. Poisonous Plants V2\11. Poisonous Plants V2.csproj", "{4B954092-2C71-44CA-83E2-FEF33E55974B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +99,30 @@ Global
 		{47C6A317-8AB8-46CD-B083-5E06EB514301}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47C6A317-8AB8-46CD-B083-5E06EB514301}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47C6A317-8AB8-46CD-B083-5E06EB514301}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E4CFDFC-7407-44CD-B30E-1EACFAEFF5DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E4CFDFC-7407-44CD-B30E-1EACFAEFF5DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E4CFDFC-7407-44CD-B30E-1EACFAEFF5DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E4CFDFC-7407-44CD-B30E-1EACFAEFF5DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B626E3E-4DAF-4514-B749-2C327AC35445}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B626E3E-4DAF-4514-B749-2C327AC35445}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B626E3E-4DAF-4514-B749-2C327AC35445}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B626E3E-4DAF-4514-B749-2C327AC35445}.Release|Any CPU.Build.0 = Release|Any CPU
+		{205652D8-5279-4093-98F6-4A059FE61458}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{205652D8-5279-4093-98F6-4A059FE61458}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{205652D8-5279-4093-98F6-4A059FE61458}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{205652D8-5279-4093-98F6-4A059FE61458}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0904C299-47CA-4E54-A2A7-F6C6E78829CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0904C299-47CA-4E54-A2A7-F6C6E78829CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0904C299-47CA-4E54-A2A7-F6C6E78829CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0904C299-47CA-4E54-A2A7-F6C6E78829CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A850E63-CE72-4A55-AF67-E16B33B6D769}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A850E63-CE72-4A55-AF67-E16B33B6D769}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A850E63-CE72-4A55-AF67-E16B33B6D769}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A850E63-CE72-4A55-AF67-E16B33B6D769}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B954092-2C71-44CA-83E2-FEF33E55974B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B954092-2C71-44CA-83E2-FEF33E55974B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B954092-2C71-44CA-83E2-FEF33E55974B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B954092-2C71-44CA-83E2-FEF33E55974B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -106,5 +142,11 @@ Global
 		{003DAB20-AB08-452B-AF65-296682BF02AF} = {38F7F13D-591B-472D-B4C3-DF7ABC965F8C}
 		{1D270D73-5631-44B5-B4A5-6BEC3B50EC64} = {38F7F13D-591B-472D-B4C3-DF7ABC965F8C}
 		{47C6A317-8AB8-46CD-B083-5E06EB514301} = {38F7F13D-591B-472D-B4C3-DF7ABC965F8C}
+		{2E4CFDFC-7407-44CD-B30E-1EACFAEFF5DD} = {38F7F13D-591B-472D-B4C3-DF7ABC965F8C}
+		{9B626E3E-4DAF-4514-B749-2C327AC35445} = {38F7F13D-591B-472D-B4C3-DF7ABC965F8C}
+		{205652D8-5279-4093-98F6-4A059FE61458} = {38F7F13D-591B-472D-B4C3-DF7ABC965F8C}
+		{0904C299-47CA-4E54-A2A7-F6C6E78829CD} = {38F7F13D-591B-472D-B4C3-DF7ABC965F8C}
+		{2A850E63-CE72-4A55-AF67-E16B33B6D769} = {38F7F13D-591B-472D-B4C3-DF7ABC965F8C}
+		{4B954092-2C71-44CA-83E2-FEF33E55974B} = {38F7F13D-591B-472D-B4C3-DF7ABC965F8C}
 	EndGlobalSection
 EndGlobal
