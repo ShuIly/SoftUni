@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exam - 09 July 2017", "Exam - 09 July 2017", "{6E68C13A-CB22-4DAD-B3F2-942DE94DE716}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Pokemon", "Programming Fundamentals Exam - 09 July 2017\01. Pokemon\01. Pokemon.csproj", "{A2F94D56-4928-47A1-95BB-5B02D0CA802E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Pokemon Dont Go", "Programming Fundamentals Exam - 09 July 2017\02. Pokemon Dont Go\02. Pokemon Dont Go.csproj", "{F6CE3933-0829-4ADF-9599-3E50B61C8B77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Regexmon", "Programming Fundamentals Exam - 09 July 2017\03. Regexmon\03. Regexmon.csproj", "{91785F7D-CB05-4445-94F1-208EC2FA2C36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Pokemon Evolution", "Programming Fundamentals Exam - 09 July 2017\04. Pokemon Evolution\04. Pokemon Evolution.csproj", "{F9C1333C-3C16-4E89-8A10-029A5C26FA93}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2F94D56-4928-47A1-95BB-5B02D0CA802E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2F94D56-4928-47A1-95BB-5B02D0CA802E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2F94D56-4928-47A1-95BB-5B02D0CA802E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2F94D56-4928-47A1-95BB-5B02D0CA802E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6CE3933-0829-4ADF-9599-3E50B61C8B77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6CE3933-0829-4ADF-9599-3E50B61C8B77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6CE3933-0829-4ADF-9599-3E50B61C8B77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6CE3933-0829-4ADF-9599-3E50B61C8B77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91785F7D-CB05-4445-94F1-208EC2FA2C36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91785F7D-CB05-4445-94F1-208EC2FA2C36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91785F7D-CB05-4445-94F1-208EC2FA2C36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91785F7D-CB05-4445-94F1-208EC2FA2C36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9C1333C-3C16-4E89-8A10-029A5C26FA93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9C1333C-3C16-4E89-8A10-029A5C26FA93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9C1333C-3C16-4E89-8A10-029A5C26FA93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9C1333C-3C16-4E89-8A10-029A5C26FA93}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A2F94D56-4928-47A1-95BB-5B02D0CA802E} = {6E68C13A-CB22-4DAD-B3F2-942DE94DE716}
+		{F6CE3933-0829-4ADF-9599-3E50B61C8B77} = {6E68C13A-CB22-4DAD-B3F2-942DE94DE716}
+		{91785F7D-CB05-4445-94F1-208EC2FA2C36} = {6E68C13A-CB22-4DAD-B3F2-942DE94DE716}
+		{F9C1333C-3C16-4E89-8A10-029A5C26FA93} = {6E68C13A-CB22-4DAD-B3F2-942DE94DE716}
+	EndGlobalSection
+EndGlobal
