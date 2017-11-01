@@ -63,29 +63,37 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Unique Usernames", "02.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Sets of Elements", "02. Sets and Dictionaries\Exercises\02. Sets of Elements\02. Sets of Elements.csproj", "{58DE3E01-218A-4A87-ADC4-8246C70C1CE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Periodic Table", "02. Sets and Dictionaries\Exercises\03. Periodic Table\03. Periodic Table.csproj", "{2FF14680-9488-424F-8FF2-C663B846315D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Periodic Table", "02. Sets and Dictionaries\Exercises\03. Periodic Table\03. Periodic Table.csproj", "{2FF14680-9488-424F-8FF2-C663B846315D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Count Symbols", "02. Sets and Dictionaries\Exercises\04. Count Symbols\04. Count Symbols.csproj", "{D9195ECF-313B-4593-AB5B-E4CED7E4E8E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Count Symbols", "02. Sets and Dictionaries\Exercises\04. Count Symbols\04. Count Symbols.csproj", "{D9195ECF-313B-4593-AB5B-E4CED7E4E8E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Phonebook", "02. Sets and Dictionaries\Exercises\05. Phonebook\05. Phonebook.csproj", "{072AAF9A-EDFD-4FA7-A397-6E7A3E8B6E1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. Phonebook", "02. Sets and Dictionaries\Exercises\05. Phonebook\05. Phonebook.csproj", "{072AAF9A-EDFD-4FA7-A397-6E7A3E8B6E1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Fix emails", "02. Sets and Dictionaries\Exercises\07. Fix emails\07. Fix emails.csproj", "{1F6729ED-228A-486C-B89D-3AF73756DEE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07. Fix emails", "02. Sets and Dictionaries\Exercises\07. Fix emails\07. Fix emails.csproj", "{1F6729ED-228A-486C-B89D-3AF73756DEE8}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06. A Miners Task", "02. Sets and Dictionaries\Exercises\06. A Miners Task\06. A Miners Task.csproj", "{3022EEE5-AE01-440D-A09E-B934AB4E5FC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Hands of cards", "02. Sets and Dictionaries\Exercises\08. Hands of cards\08. Hands of cards.csproj", "{C59E684D-8EAF-491D-902A-6BBD54A972D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08. Hands of cards", "02. Sets and Dictionaries\Exercises\08. Hands of cards\08. Hands of cards.csproj", "{C59E684D-8EAF-491D-902A-6BBD54A972D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. User Logs", "02. Sets and Dictionaries\Exercises\09. User Logs\09. User Logs.csproj", "{4F9CF6F7-7115-4A4A-9226-A478992171F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09. User Logs", "02. Sets and Dictionaries\Exercises\09. User Logs\09. User Logs.csproj", "{4F9CF6F7-7115-4A4A-9226-A478992171F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Population Counter", "02. Sets and Dictionaries\Exercises\10. Population Counter\10. Population Counter.csproj", "{D231D39E-2731-4D26-8E72-596668A7A7AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10. Population Counter", "02. Sets and Dictionaries\Exercises\10. Population Counter\10. Population Counter.csproj", "{D231D39E-2731-4D26-8E72-596668A7A7AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Logs Aggregator", "02. Sets and Dictionaries\Exercises\11. Logs Aggregator\11. Logs Aggregator.csproj", "{A2361205-C7CE-4D23-87F8-5F3301FCCF86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11. Logs Aggregator", "02. Sets and Dictionaries\Exercises\11. Logs Aggregator\11. Logs Aggregator.csproj", "{A2361205-C7CE-4D23-87F8-5F3301FCCF86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12. Legendary Farming", "02. Sets and Dictionaries\Exercises\12. Legendary Farming\12. Legendary Farming.csproj", "{6FD9C92A-792F-4C5F-9F8F-653BD73B2476}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12. Legendary Farming", "02. Sets and Dictionaries\Exercises\12. Legendary Farming\12. Legendary Farming.csproj", "{6FD9C92A-792F-4C5F-9F8F-653BD73B2476}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13. Сръбско Unleashed", "02. Sets and Dictionaries\Exercises\13. Сръбско Unleashed\13. Сръбско Unleashed.csproj", "{5F18A252-8512-4C4E-9648-F8CDE5B102CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13. Сръбско Unleashed", "02. Sets and Dictionaries\Exercises\13. Сръбско Unleashed\13. Сръбско Unleashed.csproj", "{5F18A252-8512-4C4E-9648-F8CDE5B102CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14. Dragon Army", "02. Sets and Dictionaries\Exercises\14. Dragon Army\14. Dragon Army.csproj", "{0CB100DF-51C6-43B9-A464-5857CB9FFA37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14. Dragon Army", "02. Sets and Dictionaries\Exercises\14. Dragon Army\14. Dragon Army.csproj", "{0CB100DF-51C6-43B9-A464-5857CB9FFA37}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Matrices", "03. Matrices", "{FD3F3EC0-2552-480F-9463-C2E9CDC1165E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab", "Lab", "{2E5F4299-F4CB-474C-8917-D463C6657C75}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercises", "Exercises", "{19380149-0D8D-4CC1-BA75-EFB6B47B166F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Sum Matrix Elements", "03. Matrices\Lab\01. Sum Matrix Elements\01. Sum Matrix Elements.csproj", "{5D3EB2D3-ED0D-41C8-A436-6EDD5DB49A65}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -237,6 +245,10 @@ Global
 		{0CB100DF-51C6-43B9-A464-5857CB9FFA37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CB100DF-51C6-43B9-A464-5857CB9FFA37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CB100DF-51C6-43B9-A464-5857CB9FFA37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D3EB2D3-ED0D-41C8-A436-6EDD5DB49A65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D3EB2D3-ED0D-41C8-A436-6EDD5DB49A65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D3EB2D3-ED0D-41C8-A436-6EDD5DB49A65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D3EB2D3-ED0D-41C8-A436-6EDD5DB49A65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -282,5 +294,8 @@ Global
 		{6FD9C92A-792F-4C5F-9F8F-653BD73B2476} = {5C651AC0-BCA5-46C0-BC6F-34562F4F2A17}
 		{5F18A252-8512-4C4E-9648-F8CDE5B102CB} = {5C651AC0-BCA5-46C0-BC6F-34562F4F2A17}
 		{0CB100DF-51C6-43B9-A464-5857CB9FFA37} = {5C651AC0-BCA5-46C0-BC6F-34562F4F2A17}
+		{2E5F4299-F4CB-474C-8917-D463C6657C75} = {FD3F3EC0-2552-480F-9463-C2E9CDC1165E}
+		{19380149-0D8D-4CC1-BA75-EFB6B47B166F} = {FD3F3EC0-2552-480F-9463-C2E9CDC1165E}
+		{5D3EB2D3-ED0D-41C8-A436-6EDD5DB49A65} = {2E5F4299-F4CB-474C-8917-D463C6657C75}
 	EndGlobalSection
 EndGlobal
