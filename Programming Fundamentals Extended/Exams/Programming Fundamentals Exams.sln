@@ -17,9 +17,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exam Preparation 3", "Exam 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. SoftUni Coffee Orders", "Exam Preperation 3\01. SoftUni Coffee Orders\01. SoftUni Coffee Orders.csproj", "{7383A266-C08E-4BA4-9E72-42B95175CB7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Command Interpreter", "Exam Preperation 3\02. Command Interpreter\02. Command Interpreter.csproj", "{35F5A9E4-2CB8-4313-BF82-ECC7E5D026C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Command Interpreter", "Exam Preperation 3\02. Command Interpreter\02. Command Interpreter.csproj", "{35F5A9E4-2CB8-4313-BF82-ECC7E5D026C2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Rage Quit", "Exam Preperation 3\03. Rage Quit\03. Rage Quit.csproj", "{C506CF83-917C-46AA-A773-E062CA4EFFC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Files", "Exam Preperation 3\04. Files\04. Files.csproj", "{C87A6454-BD31-48C3-8354-C7862F9BC8A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +57,10 @@ Global
 		{C506CF83-917C-46AA-A773-E062CA4EFFC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C506CF83-917C-46AA-A773-E062CA4EFFC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C506CF83-917C-46AA-A773-E062CA4EFFC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C87A6454-BD31-48C3-8354-C7862F9BC8A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C87A6454-BD31-48C3-8354-C7862F9BC8A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C87A6454-BD31-48C3-8354-C7862F9BC8A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C87A6454-BD31-48C3-8354-C7862F9BC8A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,5 +73,6 @@ Global
 		{7383A266-C08E-4BA4-9E72-42B95175CB7C} = {D6CA1173-4590-4617-93C0-F71A742C768C}
 		{35F5A9E4-2CB8-4313-BF82-ECC7E5D026C2} = {D6CA1173-4590-4617-93C0-F71A742C768C}
 		{C506CF83-917C-46AA-A773-E062CA4EFFC8} = {D6CA1173-4590-4617-93C0-F71A742C768C}
+		{C87A6454-BD31-48C3-8354-C7862F9BC8A1} = {D6CA1173-4590-4617-93C0-F71A742C768C}
 	EndGlobalSection
 EndGlobal
