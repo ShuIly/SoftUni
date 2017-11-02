@@ -15,10 +15,7 @@ namespace _04.Files
 		{
 			Name = name;
 			FileSize = fileSize;
-
-			Extension = Regex.Match(name, @"^.+\.(?<extension>.+)$")
-				.Groups["extension"]
-				.Value;
+			Extension = name.Substring(name.LastIndexOf('.') + 1);
 		}
 	}
 
