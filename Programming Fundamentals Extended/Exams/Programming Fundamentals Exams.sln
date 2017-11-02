@@ -5,13 +5,21 @@ VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exam - 09 July 2017", "Exam - 09 July 2017", "{6E68C13A-CB22-4DAD-B3F2-942DE94DE716}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Pokemon", "Programming Fundamentals Exam - 09 July 2017\01. Pokemon\01. Pokemon.csproj", "{A2F94D56-4928-47A1-95BB-5B02D0CA802E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Pokemon", "Programming Fundamentals Exam - 09 July 2017\01. Pokemon\01. Pokemon.csproj", "{A2F94D56-4928-47A1-95BB-5B02D0CA802E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Pokemon Dont Go", "Programming Fundamentals Exam - 09 July 2017\02. Pokemon Dont Go\02. Pokemon Dont Go.csproj", "{F6CE3933-0829-4ADF-9599-3E50B61C8B77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Pokemon Dont Go", "Programming Fundamentals Exam - 09 July 2017\02. Pokemon Dont Go\02. Pokemon Dont Go.csproj", "{F6CE3933-0829-4ADF-9599-3E50B61C8B77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Regexmon", "Programming Fundamentals Exam - 09 July 2017\03. Regexmon\03. Regexmon.csproj", "{91785F7D-CB05-4445-94F1-208EC2FA2C36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Regexmon", "Programming Fundamentals Exam - 09 July 2017\03. Regexmon\03. Regexmon.csproj", "{91785F7D-CB05-4445-94F1-208EC2FA2C36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Pokemon Evolution", "Programming Fundamentals Exam - 09 July 2017\04. Pokemon Evolution\04. Pokemon Evolution.csproj", "{F9C1333C-3C16-4E89-8A10-029A5C26FA93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Pokemon Evolution", "Programming Fundamentals Exam - 09 July 2017\04. Pokemon Evolution\04. Pokemon Evolution.csproj", "{F9C1333C-3C16-4E89-8A10-029A5C26FA93}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exam Preparation 3", "Exam Preparation 3", "{D6CA1173-4590-4617-93C0-F71A742C768C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. SoftUni Coffee Orders", "Exam Preperation 3\01. SoftUni Coffee Orders\01. SoftUni Coffee Orders.csproj", "{7383A266-C08E-4BA4-9E72-42B95175CB7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Command Interpreter", "Exam Preperation 3\02. Command Interpreter\02. Command Interpreter.csproj", "{35F5A9E4-2CB8-4313-BF82-ECC7E5D026C2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Rage Quit", "Exam Preperation 3\03. Rage Quit\03. Rage Quit.csproj", "{C506CF83-917C-46AA-A773-E062CA4EFFC8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +43,18 @@ Global
 		{F9C1333C-3C16-4E89-8A10-029A5C26FA93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9C1333C-3C16-4E89-8A10-029A5C26FA93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9C1333C-3C16-4E89-8A10-029A5C26FA93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7383A266-C08E-4BA4-9E72-42B95175CB7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7383A266-C08E-4BA4-9E72-42B95175CB7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7383A266-C08E-4BA4-9E72-42B95175CB7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7383A266-C08E-4BA4-9E72-42B95175CB7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35F5A9E4-2CB8-4313-BF82-ECC7E5D026C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35F5A9E4-2CB8-4313-BF82-ECC7E5D026C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35F5A9E4-2CB8-4313-BF82-ECC7E5D026C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35F5A9E4-2CB8-4313-BF82-ECC7E5D026C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C506CF83-917C-46AA-A773-E062CA4EFFC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C506CF83-917C-46AA-A773-E062CA4EFFC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C506CF83-917C-46AA-A773-E062CA4EFFC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C506CF83-917C-46AA-A773-E062CA4EFFC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,5 +64,8 @@ Global
 		{F6CE3933-0829-4ADF-9599-3E50B61C8B77} = {6E68C13A-CB22-4DAD-B3F2-942DE94DE716}
 		{91785F7D-CB05-4445-94F1-208EC2FA2C36} = {6E68C13A-CB22-4DAD-B3F2-942DE94DE716}
 		{F9C1333C-3C16-4E89-8A10-029A5C26FA93} = {6E68C13A-CB22-4DAD-B3F2-942DE94DE716}
+		{7383A266-C08E-4BA4-9E72-42B95175CB7C} = {D6CA1173-4590-4617-93C0-F71A742C768C}
+		{35F5A9E4-2CB8-4313-BF82-ECC7E5D026C2} = {D6CA1173-4590-4617-93C0-F71A742C768C}
+		{C506CF83-917C-46AA-A773-E062CA4EFFC8} = {D6CA1173-4590-4617-93C0-F71A742C768C}
 	EndGlobalSection
 EndGlobal

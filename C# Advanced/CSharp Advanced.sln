@@ -99,7 +99,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Maximum Sum", "03. Matr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Group Numbers", "03. Matrices\Lab\03. Group Numbers\03. Group Numbers.csproj", "{517B9F5E-4051-4331-9944-0AFB2AB4C6DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Pascal Triangle", "03. Matrices\Lab\04. Pascal Triangle\04. Pascal Triangle.csproj", "{285BDE88-1994-4899-9843-6324C6EAEB7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Pascal Triangle", "03. Matrices\Lab\04. Pascal Triangle\04. Pascal Triangle.csproj", "{285BDE88-1994-4899-9843-6324C6EAEB7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Matrix of Palindromes", "03. Matrices\Exercises\01. Matrix of Palindromes\01. Matrix of Palindromes.csproj", "{D8960507-765F-440A-B989-49980F1DAB60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Diagonal Difference", "03. Matrices\Exercises\02. Diagonal Difference\02. Diagonal Difference.csproj", "{56352D92-EAC7-43FD-8A96-A3E8511ECC9A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -267,6 +271,14 @@ Global
 		{285BDE88-1994-4899-9843-6324C6EAEB7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{285BDE88-1994-4899-9843-6324C6EAEB7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{285BDE88-1994-4899-9843-6324C6EAEB7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8960507-765F-440A-B989-49980F1DAB60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8960507-765F-440A-B989-49980F1DAB60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8960507-765F-440A-B989-49980F1DAB60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8960507-765F-440A-B989-49980F1DAB60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56352D92-EAC7-43FD-8A96-A3E8511ECC9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56352D92-EAC7-43FD-8A96-A3E8511ECC9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56352D92-EAC7-43FD-8A96-A3E8511ECC9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56352D92-EAC7-43FD-8A96-A3E8511ECC9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -318,5 +330,7 @@ Global
 		{361A65F5-8EF5-451A-B8B6-6F5E42F1B44E} = {2E5F4299-F4CB-474C-8917-D463C6657C75}
 		{517B9F5E-4051-4331-9944-0AFB2AB4C6DE} = {2E5F4299-F4CB-474C-8917-D463C6657C75}
 		{285BDE88-1994-4899-9843-6324C6EAEB7C} = {2E5F4299-F4CB-474C-8917-D463C6657C75}
+		{D8960507-765F-440A-B989-49980F1DAB60} = {19380149-0D8D-4CC1-BA75-EFB6B47B166F}
+		{56352D92-EAC7-43FD-8A96-A3E8511ECC9A} = {19380149-0D8D-4CC1-BA75-EFB6B47B166F}
 	EndGlobalSection
 EndGlobal
