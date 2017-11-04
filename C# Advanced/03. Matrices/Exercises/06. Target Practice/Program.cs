@@ -5,6 +5,13 @@ namespace _06.Target_Practice
 {
 	class Program
 	{
+		/*
+		 * Okay so I am really fucking pissed at the author for not fucking 
+		 * explaining how the shot area will really look like. Wasted 2
+		 * fucking days looking for a problem that I didn't have. Just the
+		 * fucking shot radius should look different.
+		 *
+		 */
 		static char[][] matrix;
 		static void FillMatrix(int col, int row, string snake)
 		{
@@ -156,11 +163,6 @@ namespace _06.Target_Practice
 
 			FillMatrix(colRow[0], colRow[1], snake);
 			ShootMatrix(blastInfo);
-
-			foreach (var row in matrix)
-				Console.WriteLine(string.Join("", row));
-			Console.WriteLine();
-
 			CollapseMatrix(blastInfo);
 
 			foreach (var row in matrix)

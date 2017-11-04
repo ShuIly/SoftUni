@@ -111,7 +111,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Maximal Sum", "03. Matr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. Rubiks Matrix", "03. Matrices\Exercises\05. Rubiks Matrix\05. Rubiks Matrix.csproj", "{CBB3AC6C-2011-4BDF-9147-DDA82D0473B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Target Practice", "03. Matrices\Exercises\06. Target Practice\06. Target Practice.csproj", "{79875278-F81C-400A-808F-975010A5E04C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06. Target Practice", "03. Matrices\Exercises\06. Target Practice\06. Target Practice.csproj", "{79875278-F81C-400A-808F-975010A5E04C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Target Practice Author", "03. Matrices\Exercises\06. Target Practice Author\06. Target Practice Author.csproj", "{1979C2E4-CCF7-4E2B-B511-74102C0ED468}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -303,6 +305,10 @@ Global
 		{79875278-F81C-400A-808F-975010A5E04C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79875278-F81C-400A-808F-975010A5E04C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79875278-F81C-400A-808F-975010A5E04C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1979C2E4-CCF7-4E2B-B511-74102C0ED468}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1979C2E4-CCF7-4E2B-B511-74102C0ED468}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1979C2E4-CCF7-4E2B-B511-74102C0ED468}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1979C2E4-CCF7-4E2B-B511-74102C0ED468}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -360,5 +366,6 @@ Global
 		{9389F8AA-F602-49F5-B27E-ED3AC8A34854} = {19380149-0D8D-4CC1-BA75-EFB6B47B166F}
 		{CBB3AC6C-2011-4BDF-9147-DDA82D0473B8} = {19380149-0D8D-4CC1-BA75-EFB6B47B166F}
 		{79875278-F81C-400A-808F-975010A5E04C} = {19380149-0D8D-4CC1-BA75-EFB6B47B166F}
+		{1979C2E4-CCF7-4E2B-B511-74102C0ED468} = {19380149-0D8D-4CC1-BA75-EFB6B47B166F}
 	EndGlobalSection
 EndGlobal
