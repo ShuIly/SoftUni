@@ -105,11 +105,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Matrix of Palindromes",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Diagonal Difference", "03. Matrices\Exercises\02. Diagonal Difference\02. Diagonal Difference.csproj", "{56352D92-EAC7-43FD-8A96-A3E8511ECC9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. 2x2 Squares in Matrix", "03. Matrices\Exercises\03. 2x2 Squares in Matrix\03. 2x2 Squares in Matrix.csproj", "{71F59924-E7A4-486E-9BDD-B50662E19591}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. 2x2 Squares in Matrix", "03. Matrices\Exercises\03. 2x2 Squares in Matrix\03. 2x2 Squares in Matrix.csproj", "{71F59924-E7A4-486E-9BDD-B50662E19591}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Maximal Sum", "03. Matrices\Exercises\04. Maximal Sum\04. Maximal Sum.csproj", "{9389F8AA-F602-49F5-B27E-ED3AC8A34854}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Maximal Sum", "03. Matrices\Exercises\04. Maximal Sum\04. Maximal Sum.csproj", "{9389F8AA-F602-49F5-B27E-ED3AC8A34854}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. Rubiks Matrix", "03. Matrices\Exercises\05. Rubiks Matrix\05. Rubiks Matrix.csproj", "{CBB3AC6C-2011-4BDF-9147-DDA82D0473B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Target Practice", "03. Matrices\Exercises\06. Target Practice\06. Target Practice.csproj", "{79875278-F81C-400A-808F-975010A5E04C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -297,6 +299,10 @@ Global
 		{CBB3AC6C-2011-4BDF-9147-DDA82D0473B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBB3AC6C-2011-4BDF-9147-DDA82D0473B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBB3AC6C-2011-4BDF-9147-DDA82D0473B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79875278-F81C-400A-808F-975010A5E04C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79875278-F81C-400A-808F-975010A5E04C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79875278-F81C-400A-808F-975010A5E04C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79875278-F81C-400A-808F-975010A5E04C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -353,5 +359,6 @@ Global
 		{71F59924-E7A4-486E-9BDD-B50662E19591} = {19380149-0D8D-4CC1-BA75-EFB6B47B166F}
 		{9389F8AA-F602-49F5-B27E-ED3AC8A34854} = {19380149-0D8D-4CC1-BA75-EFB6B47B166F}
 		{CBB3AC6C-2011-4BDF-9147-DDA82D0473B8} = {19380149-0D8D-4CC1-BA75-EFB6B47B166F}
+		{79875278-F81C-400A-808F-975010A5E04C} = {19380149-0D8D-4CC1-BA75-EFB6B47B166F}
 	EndGlobalSection
 EndGlobal
