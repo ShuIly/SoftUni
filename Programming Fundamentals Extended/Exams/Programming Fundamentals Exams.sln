@@ -25,13 +25,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Files", "Exam Preperati
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "26 February 2017", "26 February 2017", "{2BF60DB3-F2A7-4E8F-81CC-41D91106D5F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Hornet Wings", "Programming Fundamentals Exam - 26 February 2017\01. Hornet Wings\01. Hornet Wings.csproj", "{9D2D77C3-8F69-49EF-934C-2CD9C56559F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Hornet Wings", "Programming Fundamentals Exam - 26 February 2017\01. Hornet Wings\01. Hornet Wings.csproj", "{9D2D77C3-8F69-49EF-934C-2CD9C56559F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Hornet Comm", "Programming Fundamentals Exam - 26 February 2017\02. Hornet Comm\02. Hornet Comm.csproj", "{3E152385-F3D0-4FCE-AE96-9C10A6F0E954}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Hornet Comm", "Programming Fundamentals Exam - 26 February 2017\02. Hornet Comm\02. Hornet Comm.csproj", "{3E152385-F3D0-4FCE-AE96-9C10A6F0E954}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Hornet Assault", "Programming Fundamentals Exam - 26 February 2017\03. Hornet Assault\03. Hornet Assault.csproj", "{05E3D24E-A3CB-4BB7-9E04-E10A3A5BA067}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Hornet Assault", "Programming Fundamentals Exam - 26 February 2017\03. Hornet Assault\03. Hornet Assault.csproj", "{05E3D24E-A3CB-4BB7-9E04-E10A3A5BA067}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Hornet Armada", "Programming Fundamentals Exam - 26 February 2017\04. Hornet Armada\04. Hornet Armada.csproj", "{B66ED491-0397-4927-A36D-D40BB96B0D0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Hornet Armada", "Programming Fundamentals Exam - 26 February 2017\04. Hornet Armada\04. Hornet Armada.csproj", "{B66ED491-0397-4927-A36D-D40BB96B0D0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exam - 11 Oct 2017", "Exam - 11 Oct 2017", "{23692EB3-2E54-4DD9-B192-19B141C55880}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Anonymous Downsite", "Programming Fundamentals Exam - 11 Oct 2017\01. Anonymous Downsite\01. Anonymous Downsite.csproj", "{5E9BDE92-D2C8-411C-82AA-44331849F298}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Anonymous Threat", "Programming Fundamentals Exam - 11 Oct 2017\02. Anonymous Threat\02. Anonymous Threat.csproj", "{DDE93E88-DC6F-41A1-A7B6-0BA2E0E45F4F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +93,14 @@ Global
 		{B66ED491-0397-4927-A36D-D40BB96B0D0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B66ED491-0397-4927-A36D-D40BB96B0D0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B66ED491-0397-4927-A36D-D40BB96B0D0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E9BDE92-D2C8-411C-82AA-44331849F298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E9BDE92-D2C8-411C-82AA-44331849F298}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E9BDE92-D2C8-411C-82AA-44331849F298}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E9BDE92-D2C8-411C-82AA-44331849F298}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDE93E88-DC6F-41A1-A7B6-0BA2E0E45F4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDE93E88-DC6F-41A1-A7B6-0BA2E0E45F4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDE93E88-DC6F-41A1-A7B6-0BA2E0E45F4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDE93E88-DC6F-41A1-A7B6-0BA2E0E45F4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -104,5 +118,7 @@ Global
 		{3E152385-F3D0-4FCE-AE96-9C10A6F0E954} = {2BF60DB3-F2A7-4E8F-81CC-41D91106D5F6}
 		{05E3D24E-A3CB-4BB7-9E04-E10A3A5BA067} = {2BF60DB3-F2A7-4E8F-81CC-41D91106D5F6}
 		{B66ED491-0397-4927-A36D-D40BB96B0D0C} = {2BF60DB3-F2A7-4E8F-81CC-41D91106D5F6}
+		{5E9BDE92-D2C8-411C-82AA-44331849F298} = {23692EB3-2E54-4DD9-B192-19B141C55880}
+		{DDE93E88-DC6F-41A1-A7B6-0BA2E0E45F4F} = {23692EB3-2E54-4DD9-B192-19B141C55880}
 	EndGlobalSection
 EndGlobal

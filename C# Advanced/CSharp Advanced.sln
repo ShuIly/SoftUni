@@ -113,7 +113,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. Rubiks Matrix", "03. Ma
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06. Target Practice", "03. Matrices\Exercises\06. Target Practice\06. Target Practice.csproj", "{79875278-F81C-400A-808F-975010A5E04C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Target Practice Author", "03. Matrices\Exercises\06. Target Practice Author\06. Target Practice Author.csproj", "{1979C2E4-CCF7-4E2B-B511-74102C0ED468}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06. Target Practice Author", "03. Matrices\Exercises\06. Target Practice Author\06. Target Practice Author.csproj", "{1979C2E4-CCF7-4E2B-B511-74102C0ED468}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07. Lego Blocks", "03. Matrices\Exercises\07. Lego Blocks\07. Lego Blocks.csproj", "{E47C8306-2CB0-4077-A356-9DE67A687019}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08. Radioactive Mutant Vampire Bunnies", "03. Matrices\Exercises\08. Radioactive Mutant Vampire Bunnies\08. Radioactive Mutant Vampire Bunnies.csproj", "{C8D3EC63-DFEB-4446-BD62-4B578C647D00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Crossfire", "03. Matrices\Exercises\09. Crossfire\09. Crossfire.csproj", "{A8256434-FB13-47D6-A328-FD806D1A885F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -309,6 +315,18 @@ Global
 		{1979C2E4-CCF7-4E2B-B511-74102C0ED468}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1979C2E4-CCF7-4E2B-B511-74102C0ED468}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1979C2E4-CCF7-4E2B-B511-74102C0ED468}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E47C8306-2CB0-4077-A356-9DE67A687019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E47C8306-2CB0-4077-A356-9DE67A687019}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E47C8306-2CB0-4077-A356-9DE67A687019}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E47C8306-2CB0-4077-A356-9DE67A687019}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8D3EC63-DFEB-4446-BD62-4B578C647D00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8D3EC63-DFEB-4446-BD62-4B578C647D00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8D3EC63-DFEB-4446-BD62-4B578C647D00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8D3EC63-DFEB-4446-BD62-4B578C647D00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8256434-FB13-47D6-A328-FD806D1A885F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8256434-FB13-47D6-A328-FD806D1A885F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8256434-FB13-47D6-A328-FD806D1A885F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8256434-FB13-47D6-A328-FD806D1A885F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -367,5 +385,8 @@ Global
 		{CBB3AC6C-2011-4BDF-9147-DDA82D0473B8} = {19380149-0D8D-4CC1-BA75-EFB6B47B166F}
 		{79875278-F81C-400A-808F-975010A5E04C} = {19380149-0D8D-4CC1-BA75-EFB6B47B166F}
 		{1979C2E4-CCF7-4E2B-B511-74102C0ED468} = {19380149-0D8D-4CC1-BA75-EFB6B47B166F}
+		{E47C8306-2CB0-4077-A356-9DE67A687019} = {19380149-0D8D-4CC1-BA75-EFB6B47B166F}
+		{C8D3EC63-DFEB-4446-BD62-4B578C647D00} = {19380149-0D8D-4CC1-BA75-EFB6B47B166F}
+		{A8256434-FB13-47D6-A328-FD806D1A885F} = {19380149-0D8D-4CC1-BA75-EFB6B47B166F}
 	EndGlobalSection
 EndGlobal
