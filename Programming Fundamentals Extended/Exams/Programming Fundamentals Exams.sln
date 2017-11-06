@@ -35,9 +35,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Hornet Armada", "Progra
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exam - 11 Oct 2017", "Exam - 11 Oct 2017", "{23692EB3-2E54-4DD9-B192-19B141C55880}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Anonymous Downsite", "Programming Fundamentals Exam - 11 Oct 2017\01. Anonymous Downsite\01. Anonymous Downsite.csproj", "{5E9BDE92-D2C8-411C-82AA-44331849F298}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Anonymous Downsite", "Programming Fundamentals Exam - 11 Oct 2017\01. Anonymous Downsite\01. Anonymous Downsite.csproj", "{5E9BDE92-D2C8-411C-82AA-44331849F298}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Anonymous Threat", "Programming Fundamentals Exam - 11 Oct 2017\02. Anonymous Threat\02. Anonymous Threat.csproj", "{DDE93E88-DC6F-41A1-A7B6-0BA2E0E45F4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Anonymous Threat", "Programming Fundamentals Exam - 11 Oct 2017\02. Anonymous Threat\02. Anonymous Threat.csproj", "{DDE93E88-DC6F-41A1-A7B6-0BA2E0E45F4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Anonymous Vox", "Programming Fundamentals Exam - 11 Oct 2017\03. Anonymous Vox\03. Anonymous Vox.csproj", "{152DE482-FAEE-4412-A111-5093E88C4361}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Anonymous Cache", "Programming Fundamentals Exam - 11 Oct 2017\04. Anonymous Cache\04. Anonymous Cache.csproj", "{07EF61FC-DE61-4C02-ACA7-32F80973CA2F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -101,6 +105,14 @@ Global
 		{DDE93E88-DC6F-41A1-A7B6-0BA2E0E45F4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDE93E88-DC6F-41A1-A7B6-0BA2E0E45F4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDE93E88-DC6F-41A1-A7B6-0BA2E0E45F4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{152DE482-FAEE-4412-A111-5093E88C4361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{152DE482-FAEE-4412-A111-5093E88C4361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{152DE482-FAEE-4412-A111-5093E88C4361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{152DE482-FAEE-4412-A111-5093E88C4361}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07EF61FC-DE61-4C02-ACA7-32F80973CA2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07EF61FC-DE61-4C02-ACA7-32F80973CA2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07EF61FC-DE61-4C02-ACA7-32F80973CA2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07EF61FC-DE61-4C02-ACA7-32F80973CA2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -120,5 +132,7 @@ Global
 		{B66ED491-0397-4927-A36D-D40BB96B0D0C} = {2BF60DB3-F2A7-4E8F-81CC-41D91106D5F6}
 		{5E9BDE92-D2C8-411C-82AA-44331849F298} = {23692EB3-2E54-4DD9-B192-19B141C55880}
 		{DDE93E88-DC6F-41A1-A7B6-0BA2E0E45F4F} = {23692EB3-2E54-4DD9-B192-19B141C55880}
+		{152DE482-FAEE-4412-A111-5093E88C4361} = {23692EB3-2E54-4DD9-B192-19B141C55880}
+		{07EF61FC-DE61-4C02-ACA7-32F80973CA2F} = {23692EB3-2E54-4DD9-B192-19B141C55880}
 	EndGlobalSection
 EndGlobal
