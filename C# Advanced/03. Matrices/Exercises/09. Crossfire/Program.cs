@@ -31,9 +31,77 @@ namespace _09.Crossfire
 			int col = nukeParams[1];
 			int blastRadius = nukeParams[2];
 
-			if (row < 0 || row >= matrix.Length ||
-				col < 0 || col >= matrix[0].Length)
+			if ((row < 0 || row >= matrix.Length) &&
+				(col < 0 || col >= matrix[0].Length))
 				return;
+
+			if (row < 0)
+			{
+				int bottom = blastRadius + row;
+				if (bottom < 0)
+					return;
+
+				if (bottom >= matrix.Length)
+					bottom = matrix.Length - 1;
+
+				for (int i = 0; i <= bottom; i++)
+				{
+					if (matrix[i][col] == 0 && bottom != matrix.Length - 1 && matrix[i].All(n => n == 0))
+						bottom++;
+					matrix[i][col] = 0;
+				}
+
+				return;
+			}
+
+			if (row >= matrix.Length)
+			{
+				int top = row - blastRadius;
+				if (top >= matrix.Length)
+					return;
+
+				if (top < 0)
+					top = 0;
+
+				for (int i = matrix.Length - 1; i >= top; i--)
+				{
+					if (matrix[i][col] == 0 && top != 0 && matrix[i].All(n => n == 0))
+						top--;
+					matrix[i][col] = 0;
+				}
+
+				return;
+			}
+
+			if (col < 0)
+			{
+				int right = blastRadius + col;
+				if (right < 0)
+					return;
+
+				if (right >= matrix[0].Length)
+					right = matrix[0].Length - 1;
+
+				for (int i = 0; i <= right; i++)
+					matrix[row][i] = 0;
+
+				return;
+			}
+
+			if (col >= matrix[0].Length)
+			{
+				int left = col - blastRadius;
+				if (left >= matrix[0].Length)
+					return;
+
+				if (left < 0)
+					left = 0;
+
+				for (int i = matrix[0].Length - 1; i >= left; i--)
+					matrix[row][i] = 0;
+
+				return;
+			}
 
 			matrix[row][col] = 0;
 
@@ -42,14 +110,22 @@ namespace _09.Crossfire
 				bottomIndex = matrix.Length - 1;
 
 			for (int i = row + 1; i <= bottomIndex; i++)
+			{
+				if (matrix[i][col] == 0 && bottomIndex != matrix.Length - 1 && matrix[i].All(n => n == 0))
+					bottomIndex++;
 				matrix[i][col] = 0;
+			}
 
 			int topIndex = row - blastRadius;
 			if (topIndex < 0)
 				topIndex = 0;
 
 			for (int i = row - 1; i >= topIndex; i--)
+			{
+				if (matrix[i][col] == 0 && topIndex != 0 && matrix[i].All(n => n == 0))
+					topIndex--;
 				matrix[i][col] = 0;
+			}
 
 			int leftIndex = col - blastRadius;
 			if (leftIndex < 0)
@@ -110,7 +186,7 @@ namespace _09.Crossfire
 				matrix = GetCollapsedMatrix();
 			}
 
-			foreach (var row in matrix)
+			foreach (var row in matrix.Where(e => e.Any(n => n != 0)))
 				Console.WriteLine(string.Join(" ", row.Where(n => n > 0)));
 		}
 	}
