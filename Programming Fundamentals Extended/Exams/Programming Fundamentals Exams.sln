@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Anonymous Vox", "Progra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Anonymous Cache", "Programming Fundamentals Exam - 11 Oct 2017\04. Anonymous Cache\04. Anonymous Cache.csproj", "{07EF61FC-DE61-4C02-ACA7-32F80973CA2F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Lucky Numbers", "06. Lucky Numbers\06. Lucky Numbers.csproj", "{94FCA629-940D-4DFC-89E4-C53BAD636152}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -113,6 +115,10 @@ Global
 		{07EF61FC-DE61-4C02-ACA7-32F80973CA2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07EF61FC-DE61-4C02-ACA7-32F80973CA2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07EF61FC-DE61-4C02-ACA7-32F80973CA2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94FCA629-940D-4DFC-89E4-C53BAD636152}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94FCA629-940D-4DFC-89E4-C53BAD636152}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94FCA629-940D-4DFC-89E4-C53BAD636152}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94FCA629-940D-4DFC-89E4-C53BAD636152}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
