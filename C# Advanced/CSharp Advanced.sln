@@ -135,17 +135,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab", "Lab", "{14325959-3FD
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercises", "Exercises", "{A587FBBC-447B-487B-A479-A5033097BCE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Students Results", "05. Manual String Processing\Lab\01. Students Results\01. Students Results.csproj", "{001A7BE7-87C1-4671-BA2B-AD7A223EC07B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Students Results", "05. Manual String Processing\Lab\01. Students Results\01. Students Results.csproj", "{001A7BE7-87C1-4671-BA2B-AD7A223EC07B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Parse URLs", "05. Manual String Processing\Lab\02. Parse URLs\02. Parse URLs.csproj", "{BBE783B4-FE53-4DA4-BD29-C5691B975AFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Parse URLs", "05. Manual String Processing\Lab\02. Parse URLs\02. Parse URLs.csproj", "{BBE783B4-FE53-4DA4-BD29-C5691B975AFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Parse Tags", "05. Manual String Processing\Lab\03. Parse Tags\03. Parse Tags.csproj", "{DFC76293-9335-4FB5-9546-91CBEBC30AF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Parse Tags", "05. Manual String Processing\Lab\03. Parse Tags\03. Parse Tags.csproj", "{DFC76293-9335-4FB5-9546-91CBEBC30AF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Parse Tags V2", "05. Manual String Processing\Lab\03. Parse Tags V2\03. Parse Tags V2.csproj", "{36F45CBD-E3FC-4A17-8CF2-2C313C9977E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Parse Tags V2", "05. Manual String Processing\Lab\03. Parse Tags V2\03. Parse Tags V2.csproj", "{36F45CBD-E3FC-4A17-8CF2-2C313C9977E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Special Words", "05. Manual String Processing\Lab\04. Special Words\04. Special Words.csproj", "{83D4DC87-827C-4F2A-8D35-A67F9A1A9043}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Special Words", "05. Manual String Processing\Lab\04. Special Words\04. Special Words.csproj", "{83D4DC87-827C-4F2A-8D35-A67F9A1A9043}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Concatenate Strings", "05. Manual String Processing\Lab\05. Concatenate Strings\05. Concatenate Strings.csproj", "{25BD68FA-539C-4486-B327-312BAA3E97A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. Concatenate Strings", "05. Manual String Processing\Lab\05. Concatenate Strings\05. Concatenate Strings.csproj", "{25BD68FA-539C-4486-B327-312BAA3E97A8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Reverse String", "05. Manual String Processing\Exercises\01. Reverse String\01. Reverse String.csproj", "{1F73E8CA-3F97-495E-B1CE-988C7672BEEB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. String Length", "05. Manual String Processing\Exercises\02. String Length\02. String Length.csproj", "{6F95F66A-F638-4E8E-9422-24C7AD3C7C1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Formatting Numbers", "05. Manual String Processing\Exercises\03. Formatting Numbers\03. Formatting Numbers.csproj", "{BEF4E694-CE9A-45C0-8F50-C4ABAFA82874}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Convert from base-10 to base-N", "05. Manual String Processing\Exercises\04. Convert from base-10 to base-N\04. Convert from base-10 to base-N.csproj", "{A8F0CD35-688A-4D1F-8993-99108A774C4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Convert from base-N to base-10", "05. Manual String Processing\Exercises\05. Convert from base-N to base-10\05. Convert from base-N to base-10.csproj", "{F429D7C4-7559-4675-98D8-EEB3B16B9152}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -393,6 +403,26 @@ Global
 		{25BD68FA-539C-4486-B327-312BAA3E97A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25BD68FA-539C-4486-B327-312BAA3E97A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25BD68FA-539C-4486-B327-312BAA3E97A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F73E8CA-3F97-495E-B1CE-988C7672BEEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F73E8CA-3F97-495E-B1CE-988C7672BEEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F73E8CA-3F97-495E-B1CE-988C7672BEEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F73E8CA-3F97-495E-B1CE-988C7672BEEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F95F66A-F638-4E8E-9422-24C7AD3C7C1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F95F66A-F638-4E8E-9422-24C7AD3C7C1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F95F66A-F638-4E8E-9422-24C7AD3C7C1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F95F66A-F638-4E8E-9422-24C7AD3C7C1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEF4E694-CE9A-45C0-8F50-C4ABAFA82874}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEF4E694-CE9A-45C0-8F50-C4ABAFA82874}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEF4E694-CE9A-45C0-8F50-C4ABAFA82874}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEF4E694-CE9A-45C0-8F50-C4ABAFA82874}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8F0CD35-688A-4D1F-8993-99108A774C4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8F0CD35-688A-4D1F-8993-99108A774C4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8F0CD35-688A-4D1F-8993-99108A774C4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8F0CD35-688A-4D1F-8993-99108A774C4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F429D7C4-7559-4675-98D8-EEB3B16B9152}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F429D7C4-7559-4675-98D8-EEB3B16B9152}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F429D7C4-7559-4675-98D8-EEB3B16B9152}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F429D7C4-7559-4675-98D8-EEB3B16B9152}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -466,5 +496,10 @@ Global
 		{36F45CBD-E3FC-4A17-8CF2-2C313C9977E2} = {14325959-3FDB-4C1D-8705-C27EF2B79276}
 		{83D4DC87-827C-4F2A-8D35-A67F9A1A9043} = {14325959-3FDB-4C1D-8705-C27EF2B79276}
 		{25BD68FA-539C-4486-B327-312BAA3E97A8} = {14325959-3FDB-4C1D-8705-C27EF2B79276}
+		{1F73E8CA-3F97-495E-B1CE-988C7672BEEB} = {A587FBBC-447B-487B-A479-A5033097BCE1}
+		{6F95F66A-F638-4E8E-9422-24C7AD3C7C1F} = {A587FBBC-447B-487B-A479-A5033097BCE1}
+		{BEF4E694-CE9A-45C0-8F50-C4ABAFA82874} = {A587FBBC-447B-487B-A479-A5033097BCE1}
+		{A8F0CD35-688A-4D1F-8993-99108A774C4A} = {A587FBBC-447B-487B-A479-A5033097BCE1}
+		{F429D7C4-7559-4675-98D8-EEB3B16B9152} = {A587FBBC-447B-487B-A479-A5033097BCE1}
 	EndGlobalSection
 EndGlobal
