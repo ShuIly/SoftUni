@@ -151,11 +151,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Reverse String", "05. M
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. String Length", "05. Manual String Processing\Exercises\02. String Length\02. String Length.csproj", "{6F95F66A-F638-4E8E-9422-24C7AD3C7C1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Formatting Numbers", "05. Manual String Processing\Exercises\03. Formatting Numbers\03. Formatting Numbers.csproj", "{BEF4E694-CE9A-45C0-8F50-C4ABAFA82874}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Formatting Numbers", "05. Manual String Processing\Exercises\03. Formatting Numbers\03. Formatting Numbers.csproj", "{BEF4E694-CE9A-45C0-8F50-C4ABAFA82874}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Convert from base-10 to base-N", "05. Manual String Processing\Exercises\04. Convert from base-10 to base-N\04. Convert from base-10 to base-N.csproj", "{A8F0CD35-688A-4D1F-8993-99108A774C4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Convert from base-10 to base-N", "05. Manual String Processing\Exercises\04. Convert from base-10 to base-N\04. Convert from base-10 to base-N.csproj", "{A8F0CD35-688A-4D1F-8993-99108A774C4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Convert from base-N to base-10", "05. Manual String Processing\Exercises\05. Convert from base-N to base-10\05. Convert from base-N to base-10.csproj", "{F429D7C4-7559-4675-98D8-EEB3B16B9152}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. Convert from base-N to base-10", "05. Manual String Processing\Exercises\05. Convert from base-N to base-10\05. Convert from base-N to base-10.csproj", "{F429D7C4-7559-4675-98D8-EEB3B16B9152}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Count Substring Occurrences", "05. Manual String Processing\Exercises\06. Count Substring Occurrences\06. Count Substring Occurrences.csproj", "{92F087C5-C180-475E-B9A2-A942C8DA7149}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Sum big numbers", "05. Manual String Processing\Exercises\07. Sum big numbers\07. Sum big numbers.csproj", "{7DD7D4D7-27BA-4AC8-A8EF-15E3877E9AD9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -423,6 +427,14 @@ Global
 		{F429D7C4-7559-4675-98D8-EEB3B16B9152}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F429D7C4-7559-4675-98D8-EEB3B16B9152}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F429D7C4-7559-4675-98D8-EEB3B16B9152}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92F087C5-C180-475E-B9A2-A942C8DA7149}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92F087C5-C180-475E-B9A2-A942C8DA7149}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92F087C5-C180-475E-B9A2-A942C8DA7149}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92F087C5-C180-475E-B9A2-A942C8DA7149}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DD7D4D7-27BA-4AC8-A8EF-15E3877E9AD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DD7D4D7-27BA-4AC8-A8EF-15E3877E9AD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DD7D4D7-27BA-4AC8-A8EF-15E3877E9AD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DD7D4D7-27BA-4AC8-A8EF-15E3877E9AD9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -501,5 +513,7 @@ Global
 		{BEF4E694-CE9A-45C0-8F50-C4ABAFA82874} = {A587FBBC-447B-487B-A479-A5033097BCE1}
 		{A8F0CD35-688A-4D1F-8993-99108A774C4A} = {A587FBBC-447B-487B-A479-A5033097BCE1}
 		{F429D7C4-7559-4675-98D8-EEB3B16B9152} = {A587FBBC-447B-487B-A479-A5033097BCE1}
+		{92F087C5-C180-475E-B9A2-A942C8DA7149} = {A587FBBC-447B-487B-A479-A5033097BCE1}
+		{7DD7D4D7-27BA-4AC8-A8EF-15E3877E9AD9} = {A587FBBC-447B-487B-A479-A5033097BCE1}
 	EndGlobalSection
 EndGlobal
