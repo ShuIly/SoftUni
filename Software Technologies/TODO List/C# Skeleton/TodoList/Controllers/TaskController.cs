@@ -1,53 +1,93 @@
 ﻿using System;
 using System.Linq;
 using System.Web.Mvc;
+using Microsoft.Ajax.Utilities;
 using TodoList.Models;
 
 namespace TodoList.Controllers
 {
-        [ValidateInput(false)]
+	[ValidateInput(false)]
 	public class TaskController : Controller
 	{
-	    [HttpGet]
-        [Route("")]
-	    public ActionResult Index()
-	    {
-	        //TODO: Implement me...
-	        return View();
-        }
-
-        [HttpGet]
-        [Route("create")]
-        public ActionResult Create()
+		[HttpGet]
+		[Route("")]
+		public ActionResult Index()
 		{
-			//TODO: Implement me...
-		    return null;
+			using (var db = new TodoListDbContext())
+			{
+				var tasks = db.Tasks.ToList();
+
+				return View(tasks);
+			}
+		}
+
+		[HttpGet]
+		[Route("create")]
+		public ActionResult Create()
+		{
+			return View();
 		}
 
 		[HttpPost]
 		[Route("create")]
-        [ValidateAntiForgeryToken]
+		[ValidateAntiForgeryToken]
 		public ActionResult Create(Task task)
 		{
-		    //TODO: Implement me...
-		    return null;
-        }
+			if (task == null)
+			{
+				return RedirectToAction("Index");
+			}
+
+			if (task.Title.IsNullOrWhiteSpace() || task.Comments.IsNullOrWhiteSpace())
+			{
+				return RedirectToAction("Index");
+			}
+
+			using (var db = new TodoListDbContext())
+			{
+				db.Tasks.Add(task);
+				db.SaveChanges();
+			}
+
+			return RedirectToAction("Index");
+		}
 
 		[HttpGet]
 		[Route("delete/{id}")]
-        public ActionResult Delete(int id)
+		public ActionResult Delete(int id)
 		{
-		    //TODO: Implement me...
-		    return null;
-        }
+			using (var db = new TodoListDbContext())
+			{
+				var task = db.Tasks.Find(id);
+
+				if (task == null)
+				{
+					return RedirectToAction("Index");
+				}
+
+				return View(task);
+			}
+		}
 
 		[HttpPost]
 		[Route("delete/{id}")]
-        [ValidateAntiForgeryToken]
+		[ValidateAntiForgeryToken]
 		public ActionResult DeleteConfirm(int id)
 		{
-		    //TODO: Implement me...
-		    return null;
-        }
+			using (var db = new TodoListDbContext())
+			{
+				var task = db.Tasks.Find(id);
+
+				if (task == null)
+				{
+					return RedirectToAction("Index");
+				}
+
+				db.Tasks.Remove(task);
+				db.SaveChanges();
+			}
+
+			return RedirectToAction("Index");
+		}
 	}
 }
