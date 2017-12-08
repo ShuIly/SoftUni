@@ -49,6 +49,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dec Exam Preparation 1", "D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. SoftUni Karaoke", "Dec Exam Preparation 1\02. SoftUni Karaoke\02. SoftUni Karaoke.csproj", "{8EA9C6FC-6C59-450E-A3F4-D0422668CD41}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftUni Karaoke", "Dec Exam Preparation 1\SoftUni Karaoke\SoftUni Karaoke.csproj", "{004CF090-7BEF-4E58-A696-239B751B0F93}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -127,6 +129,10 @@ Global
 		{8EA9C6FC-6C59-450E-A3F4-D0422668CD41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EA9C6FC-6C59-450E-A3F4-D0422668CD41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EA9C6FC-6C59-450E-A3F4-D0422668CD41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{004CF090-7BEF-4E58-A696-239B751B0F93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{004CF090-7BEF-4E58-A696-239B751B0F93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{004CF090-7BEF-4E58-A696-239B751B0F93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{004CF090-7BEF-4E58-A696-239B751B0F93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -149,5 +155,6 @@ Global
 		{152DE482-FAEE-4412-A111-5093E88C4361} = {23692EB3-2E54-4DD9-B192-19B141C55880}
 		{07EF61FC-DE61-4C02-ACA7-32F80973CA2F} = {23692EB3-2E54-4DD9-B192-19B141C55880}
 		{8EA9C6FC-6C59-450E-A3F4-D0422668CD41} = {D6A4CC4D-11D6-4695-B6B8-DF6D76D86F45}
+		{004CF090-7BEF-4E58-A696-239B751B0F93} = {D6A4CC4D-11D6-4695-B6B8-DF6D76D86F45}
 	EndGlobalSection
 EndGlobal
