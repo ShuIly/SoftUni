@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 
 namespace SoftUni_Karaoke
 {
@@ -8,13 +9,15 @@ namespace SoftUni_Karaoke
 	{
 		static void Main(string[] args)
 		{
-			HashSet<string> participants = new HashSet<string>
-				(Console.ReadLine().Split(new[] {", "}, StringSplitOptions.RemoveEmptyEntries));
+			List<string> participants = Console.ReadLine()
+				.Split(new[] {", "}, StringSplitOptions.RemoveEmptyEntries)
+				.ToList();
 
-			HashSet<string> songs = new HashSet<string>
-				(Console.ReadLine().Split(new[] {", "}, StringSplitOptions.RemoveEmptyEntries));
+			List<string> songs = Console.ReadLine()
+				.Split(new[] {", "}, StringSplitOptions.RemoveEmptyEntries)
+				.ToList();
 
-			var participantsDict = new Dictionary<string, SortedSet<string>>();
+			var participantsDict = new Dictionary<string, List<string>>();
 
 			while (true)
 			{
@@ -38,19 +41,18 @@ namespace SoftUni_Karaoke
 
 				if (!participantsDict.ContainsKey(singer))
 				{
-					participantsDict.Add(singer, new SortedSet<string>());
+					participantsDict.Add(singer, new List<string>());
 				}
 
 				participantsDict[singer].Add(award);
 			}
 
-			foreach (var participant in participantsDict
-				.OrderByDescending(p => p.Value.Count))
+			foreach (var participant in participantsDict)
 			{
 				Console.WriteLine($"{participant.Key}: {participant.Value.Count} awards");
-				foreach (var award in participant.Value)
+				foreach (var VARIABLE in participant.Value)
 				{
-					Console.WriteLine($"--{award}");
+					
 				}
 			}
 		}
