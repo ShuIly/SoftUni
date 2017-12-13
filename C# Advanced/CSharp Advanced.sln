@@ -157,25 +157,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Convert from base-10 to
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. Convert from base-N to base-10", "05. Manual String Processing\Exercises\05. Convert from base-N to base-10\05. Convert from base-N to base-10.csproj", "{F429D7C4-7559-4675-98D8-EEB3B16B9152}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Count Substring Occurrences", "05. Manual String Processing\Exercises\06. Count Substring Occurrences\06. Count Substring Occurrences.csproj", "{92F087C5-C180-475E-B9A2-A942C8DA7149}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06. Count Substring Occurrences", "05. Manual String Processing\Exercises\06. Count Substring Occurrences\06. Count Substring Occurrences.csproj", "{92F087C5-C180-475E-B9A2-A942C8DA7149}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Sum big numbers", "05. Manual String Processing\Exercises\07. Sum big numbers\07. Sum big numbers.csproj", "{7DD7D4D7-27BA-4AC8-A8EF-15E3877E9AD9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07. Sum big numbers", "05. Manual String Processing\Exercises\07. Sum big numbers\07. Sum big numbers.csproj", "{7DD7D4D7-27BA-4AC8-A8EF-15E3877E9AD9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Multiply Big Number", "05. Manual String Processing\Exercises\08. Multiply Big Number\08. Multiply Big Number.csproj", "{98D07D00-A716-431B-A3AB-799A0218A396}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08. Multiply Big Number", "05. Manual String Processing\Exercises\08. Multiply Big Number\08. Multiply Big Number.csproj", "{98D07D00-A716-431B-A3AB-799A0218A396}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Text Filter", "05. Manual String Processing\Exercises\09. Text Filter\09. Text Filter.csproj", "{34ED98D7-7E5C-4C72-968E-4F2801D14DD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09. Text Filter", "05. Manual String Processing\Exercises\09. Text Filter\09. Text Filter.csproj", "{34ED98D7-7E5C-4C72-968E-4F2801D14DD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Unicode Characters", "05. Manual String Processing\Exercises\10. Unicode Characters\10. Unicode Characters.csproj", "{81999BA2-7C2E-4EF3-BB40-D78D2083E577}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10. Unicode Characters", "05. Manual String Processing\Exercises\10. Unicode Characters\10. Unicode Characters.csproj", "{81999BA2-7C2E-4EF3-BB40-D78D2083E577}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Palindromes", "05. Manual String Processing\Exercises\11. Palindromes\11. Palindromes.csproj", "{487D3A76-CAB1-4625-AD87-E3D02ED9CB7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11. Palindromes", "05. Manual String Processing\Exercises\11. Palindromes\11. Palindromes.csproj", "{487D3A76-CAB1-4625-AD87-E3D02ED9CB7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12. Character Multiplier", "05. Manual String Processing\Exercises\12. Character Multiplier\12. Character Multiplier.csproj", "{D6BA68FE-3DD7-4259-8C98-45846A877B40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12. Character Multiplier", "05. Manual String Processing\Exercises\12. Character Multiplier\12. Character Multiplier.csproj", "{D6BA68FE-3DD7-4259-8C98-45846A877B40}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13. Magic Exchangeable Words", "05. Manual String Processing\Exercises\13. Magic Exchangeable Words\13. Magic Exchangeable Words.csproj", "{ABF43811-3D6D-48E7-A372-E3DA15AF3629}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13. Magic Exchangeable Words", "05. Manual String Processing\Exercises\13. Magic Exchangeable Words\13. Magic Exchangeable Words.csproj", "{ABF43811-3D6D-48E7-A372-E3DA15AF3629}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14. Letters Change Numbers", "05. Manual String Processing\Exercises\14. Letters Change Numbers\14. Letters Change Numbers.csproj", "{4247CEC5-13E5-4584-9120-5B97B8DF2F36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14. Letters Change Numbers", "05. Manual String Processing\Exercises\14. Letters Change Numbers\14. Letters Change Numbers.csproj", "{4247CEC5-13E5-4584-9120-5B97B8DF2F36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15. Melrah Shake", "05. Manual String Processing\Exercises\15. Melrah Shake\15. Melrah Shake.csproj", "{11CD34C5-8950-4BC2-80C0-1515D1F8DEDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15. Melrah Shake", "05. Manual String Processing\Exercises\15. Melrah Shake\15. Melrah Shake.csproj", "{11CD34C5-8950-4BC2-80C0-1515D1F8DEDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16. Extract Hyperlinks", "05. Manual String Processing\Exercises\16. Extract Hyperlinks\16. Extract Hyperlinks.csproj", "{3A236F1C-38D0-4B25-A20B-84E365CCA17F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -483,6 +485,10 @@ Global
 		{11CD34C5-8950-4BC2-80C0-1515D1F8DEDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11CD34C5-8950-4BC2-80C0-1515D1F8DEDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11CD34C5-8950-4BC2-80C0-1515D1F8DEDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A236F1C-38D0-4B25-A20B-84E365CCA17F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A236F1C-38D0-4B25-A20B-84E365CCA17F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A236F1C-38D0-4B25-A20B-84E365CCA17F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A236F1C-38D0-4B25-A20B-84E365CCA17F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -571,5 +577,6 @@ Global
 		{ABF43811-3D6D-48E7-A372-E3DA15AF3629} = {A587FBBC-447B-487B-A479-A5033097BCE1}
 		{4247CEC5-13E5-4584-9120-5B97B8DF2F36} = {A587FBBC-447B-487B-A479-A5033097BCE1}
 		{11CD34C5-8950-4BC2-80C0-1515D1F8DEDD} = {A587FBBC-447B-487B-A479-A5033097BCE1}
+		{3A236F1C-38D0-4B25-A20B-84E365CCA17F} = {A587FBBC-447B-487B-A479-A5033097BCE1}
 	EndGlobalSection
 EndGlobal
