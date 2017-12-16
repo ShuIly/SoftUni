@@ -19,14 +19,14 @@ public class FilmController {
 
 	@Autowired
 	public FilmController(FilmRepository filmRepository) {
-	    this.filmRepository = filmRepository;
+		this.filmRepository = filmRepository;
 	}
 
 	@GetMapping("/")
 	public String index(Model model) {
-	    List<Film> films = this.filmRepository.findAll();
+		List<Film> films = this.filmRepository.findAll();
 
-	    model.addAttribute("view", "film/index");
+		model.addAttribute("view", "film/index");
 		model.addAttribute("films", films);
 
 		return "base-layout";
@@ -34,37 +34,81 @@ public class FilmController {
 
 	@GetMapping("/create")
 	public String create(Model model) {
-		//TODO: Implement me ...
-		return null;
+	    model.addAttribute("view", "film/create");
+
+		return "base-layout";
 	}
 
 	@PostMapping("/create")
 	public String createProcess(Model model, FilmBindingModel filmBindingModel) {
-		//TODO: Implement me ...
-		return null;
+	    Film film = new Film(
+	    		filmBindingModel.getName(),
+				filmBindingModel.getGenre(),
+				filmBindingModel.getDirector(),
+				filmBindingModel.getYear()
+		);
+
+	    this.filmRepository.saveAndFlush(film);
+
+	    return "redirect:/";
 	}
 
 	@GetMapping("/edit/{id}")
 	public String edit(Model model, @PathVariable int id) {
-		//TODO: Implement me ...
-		return null;
+	    Film film = this.filmRepository.findOne(id);
+
+	    if (film == null) {
+	    	return "redirect:/";
+		}
+
+		model.addAttribute("view", "film/edit");
+	    model.addAttribute("film", film);
+
+	    return "base-layout";
 	}
 
 	@PostMapping("/edit/{id}")
 	public String editProcess(Model model, @PathVariable int id, FilmBindingModel filmBindingModel) {
-		//TODO: Implement me ...
-		return null;
+		Film film = this.filmRepository.findOne(id);
+
+		if (film == null) {
+			return "redirect:/";
+		}
+
+		film.setName(filmBindingModel.getName());
+		film.setGenre(filmBindingModel.getGenre());
+		film.setDirector(filmBindingModel.getDirector());
+		film.setYear(filmBindingModel.getYear());
+
+		this.filmRepository.saveAndFlush(film);
+
+		return "redirect:/";
 	}
 
 	@GetMapping("/delete/{id}")
 	public String delete(Model model, @PathVariable int id) {
-		//TODO: Implement me ...
-		return null;
-	}
+	    Film film = this.filmRepository.findOne(id);
+
+	    if (film == null) {
+	    	return "redirect:/";
+		}
+
+		model.addAttribute("view", "film/delete");
+	    model.addAttribute("film", film);
+
+	    return "base-layout";	}
 
 	@PostMapping("/delete/{id}")
 	public String deleteProcess(@PathVariable int id) {
-		//TODO: Implement me ...
-		return null;
+		Film film = this.filmRepository.findOne(id);
+
+		if (film == null) {
+			return "redirect:/";
+		}
+
+		this.filmRepository.delete(film);
+
+		return "redirect:/";
 	}
 }
+
