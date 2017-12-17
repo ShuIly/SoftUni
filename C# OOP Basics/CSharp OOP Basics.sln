@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Defining Classes", "01. Defining Classes", "{E48C6FCB-E55B-47B0-A2BE-07D632121E6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab", "Lab", "{822240F4-3C4D-402F-B51F-C31D5A10C827}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank Account", "01. Defining Classes\Lab\Bank Account Test\Bank Account.csproj", "{791E5077-44D7-4FBE-A510-1AD4F0DD7F32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{791E5077-44D7-4FBE-A510-1AD4F0DD7F32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{791E5077-44D7-4FBE-A510-1AD4F0DD7F32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{791E5077-44D7-4FBE-A510-1AD4F0DD7F32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{791E5077-44D7-4FBE-A510-1AD4F0DD7F32}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{822240F4-3C4D-402F-B51F-C31D5A10C827} = {E48C6FCB-E55B-47B0-A2BE-07D632121E6A}
+		{791E5077-44D7-4FBE-A510-1AD4F0DD7F32} = {822240F4-3C4D-402F-B51F-C31D5A10C827}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A63DA2D-2250-441F-88CD-D92C2A4CBA97}
+	EndGlobalSection
+EndGlobal
