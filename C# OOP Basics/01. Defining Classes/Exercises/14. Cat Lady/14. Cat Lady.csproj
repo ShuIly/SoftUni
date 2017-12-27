@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E223DA38-CB75-40D2-8D14-18E987EF3688}</ProjectGuid>
+    <ProjectGuid>{81DF772B-952D-4DD0-93A5-0AF5FB10DDB6}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_12.Google</RootNamespace>
-    <AssemblyName>_12.Google</AssemblyName>
+    <RootNamespace>_14.Cat_Lady</RootNamespace>
+    <AssemblyName>_14.Cat_Lady</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,15 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Car.cs" />
-    <Compile Include="Child.cs" />
-    <Compile Include="Company.cs" />
-    <Compile Include="Parent.cs" />
-    <Compile Include="Relative.cs" />
-    <Compile Include="Person.cs" />
-    <Compile Include="Pokemon.cs" />
+    <Compile Include="Cat.cs" />
+    <Compile Include="Cymric.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Siamese.cs" />
+    <Compile Include="StreetExtraordinaire.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

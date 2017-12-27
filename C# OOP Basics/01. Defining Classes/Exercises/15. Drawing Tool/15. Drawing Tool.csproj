@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E223DA38-CB75-40D2-8D14-18E987EF3688}</ProjectGuid>
+    <ProjectGuid>{21AFA822-C3BA-4653-B279-DC48D3995388}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_12.Google</RootNamespace>
-    <AssemblyName>_12.Google</AssemblyName>
+    <RootNamespace>_15.Drawing_Tool</RootNamespace>
+    <AssemblyName>_15.Drawing_Tool</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,13 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Car.cs" />
-    <Compile Include="Child.cs" />
-    <Compile Include="Company.cs" />
-    <Compile Include="Parent.cs" />
-    <Compile Include="Relative.cs" />
-    <Compile Include="Person.cs" />
-    <Compile Include="Pokemon.cs" />
+    <Compile Include="CorDraw.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
