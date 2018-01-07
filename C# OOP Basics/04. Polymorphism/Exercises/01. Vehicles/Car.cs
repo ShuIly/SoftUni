@@ -2,7 +2,7 @@
 
 class Car
 {
-    protected virtual double AdditionalFuelConsumption => 0.9;
+    protected virtual double ACFuelConsumption => 0.9;
     protected virtual double FuelRefillPercentage => 1;
 
     private double fuelQuantity;
@@ -14,7 +14,7 @@ class Car
         {
             if (value < 0)
             {
-                throw new ArgumentException($"{nameof(FuelQuantity)} cannot be negative.");
+                throw new ArgumentException($"{this.GetType().Name} needs refueling");
             }
 
             this.fuelQuantity = value;
@@ -26,18 +26,12 @@ class Car
     public Car(double fuelQuantity, double fuelConsumption)
     {
         this.FuelQuantity = fuelQuantity;
-        this.FuelConsumption = fuelConsumption + AdditionalFuelConsumption;
+        this.FuelConsumption = fuelConsumption + ACFuelConsumption;
     }
 
     public void Drive(double distance)
     {
-        var neededFuel = this.FuelConsumption * distance;
-
-        if (neededFuel > this.FuelQuantity)
-        {
-            throw new ArgumentException();
-        }
-
+        double neededFuel = this.FuelConsumption * distance;
         this.FuelQuantity -= neededFuel;
     }
 
