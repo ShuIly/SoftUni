@@ -4,6 +4,18 @@ using System.Linq;
 
 public class MyList<T> : List<T> where T : IComparable
 {
+    public MyList()
+    {
+    }
+
+    public MyList(IEnumerable<T> collection)
+    {
+        foreach (var element in collection)
+        {
+            this.Add(element);
+        }
+    }
+
     public void Swap(int firstIndex, int secondIndex)
     {
         T temp = this[firstIndex];

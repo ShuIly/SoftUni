@@ -2,7 +2,7 @@
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
         MyList<IComparable> list = new MyList<IComparable>();
 

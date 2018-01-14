@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 public static class CommandInterpreter
 {
@@ -31,6 +32,9 @@ public static class CommandInterpreter
                 break;
             case "Print":
                 list.ForEach(Console.WriteLine);
+                break;
+            case "Sort":
+                list = new MyList<IComparable>(GenericCollectionSorter.GetSortedCollection(list));
                 break;
         }
     }
