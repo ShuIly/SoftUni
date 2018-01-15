@@ -14,7 +14,7 @@ class Program
                 break;
             }
 
-            CommandInterpreter.PerformAction(list, input
+            CommandInterpreter.PerformAction(ref list, input
                 .Split(new [] { ' ' }, StringSplitOptions.RemoveEmptyEntries));
         }
     }

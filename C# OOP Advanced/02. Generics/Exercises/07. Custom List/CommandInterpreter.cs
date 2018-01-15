@@ -3,7 +3,7 @@ using System.Linq;
 
 public static class CommandInterpreter
 {
-    public static void PerformAction(MyList<IComparable> list, string[] cmdArgs)
+    public static void PerformAction(ref MyList<IComparable> list, string[] cmdArgs)
     {
         string command = cmdArgs[0];
 
