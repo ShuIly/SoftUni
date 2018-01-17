@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Monthly Calendar</title>
+    <style>
+        .prev-month, .next-month {
+            color: #CCC
+        }
+
+        .today {
+            font-weight: bold;
+            background: #DDD;
+        }
+
+        .title {
+            background: #AAAAFF;
+            margin: 10px 0;
+            padding: 5px
+        }
+
+        table {
+            border: 1px solid #CCC;
+        }
+
+        td {
+            text-align: center;
+        }
+
+        #calendarCode {
+            width: 100%;
+        }
+    </style>
+    <script>
+        function calendar([day, month, year]) {
+            let days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+            let result = '<table>\n  <tr>';
+            for (let i = 0; i < 7; ++i) {
+                result += `<th>${days[i]}</th>`
+            }
+            result += '</tr>\n  <tr>';
+
+            let firstDayOfWeek = new Date(year, month - 1, 0).getDay();
+            let daysInMonth = new Date(year, month, 0).getDate();
+            let daysInLastMonth = new Date(year, month - 1, 0).getDate();
+
+            console.log(firstDayOfWeek);
+
+            for (let i = daysInLastMonth - firstDayOfWeek; i <= daysInLastMonth; ++i) {
+                result += `<td class="prev-month">${i}</td>`;
+            }
+
+            let weekDayCount = firstDayOfWeek;
+            for (let i = 1; i <= daysInMonth; ++i, ++weekDayCount) {
+                if (weekDayCount === 6) {
+                    result += '</tr>\n  <tr>';
+                    weekDayCount = -1;
+                }
+
+                if (i == day) {
+                    result += `<td class="today">${i}</td>`;
+                } else {
+                    result += `<td>${i}</td>`;
+                }
+            }
+
+            for (let i = 1; weekDayCount < 6; ++i, ++weekDayCount) {
+                result += `<td class="next-month">${i}</td>`;
+            }
+            result += '</tr>\n</table>';
+
+            return result;
+        }
+    </script>
+</head>
+
+<body>
+Day: <input id="day" type="number" value="4"/>
+Month: <input id="month" type="number" value="9"/>
+Year: <input id="year" type="number" value="2016"/>
+<input type="button" value="Show"
+       onclick="let calendarHTML =
+            calendar([document.getElementById('day').value,
+                document.getElementById('month').value,
+                document.getElementById('year').value]);
+            document.getElementById('calendar').innerHTML = calendarHTML;
+            document.getElementById('calendarCode').innerText = calendarHTML"/>
+<div class="title">Calendar:</div>
+<div id="calendar">Calendar will be shown here</div>
+<div class="title">HTML:</div>
+<textarea rows="12" id="calendarCode"></textarea>
+</body>
+
+</html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
