@@ -1,4 +1,4 @@
-function gradsToDegrees([grads]) {
+function gradsToDegrees(grads) {
     grads = Number(grads);
     let degrees = grads * 3.6 / 4;
     degrees = degrees % 360;

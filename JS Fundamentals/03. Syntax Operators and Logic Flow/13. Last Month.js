@@ -4,5 +4,3 @@ function lastMonth([day, month, year]) {
     let days = date.getDate();
     console.log(days);
 }
-
-lastMonth(['17','3','2002']);

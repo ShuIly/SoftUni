@@ -1,19 +1,19 @@
-function getCalendar(day, month, year) {
+function calendar([day, month, year]) {
     let days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
     let result = '<table>\n  <tr>';
     for (let i = 0; i < 7; ++i) {
         result += `<th>${days[i]}</th>`
     }
-    result += '</tr>\n  <tr>';
 
     let firstDayOfWeek = new Date(year, month - 1, 0).getDay();
     let daysInMonth = new Date(year, month, 0).getDate();
     let daysInLastMonth = new Date(year, month - 1, 0).getDate();
 
-    console.log(firstDayOfWeek);
-
-    for (let i = daysInLastMonth - firstDayOfWeek; i <= daysInLastMonth; ++i) {
-        result += `<td class="prev-month">${i}</td>`;
+    if (firstDayOfWeek < 6) {
+        result += '</tr>\n  <tr>';
+        for (let i = daysInLastMonth - firstDayOfWeek; i <= daysInLastMonth; ++i) {
+            result += `<td class="prev-month">${i}</td>`;
+        }
     }
 
     let weekDayCount = firstDayOfWeek;

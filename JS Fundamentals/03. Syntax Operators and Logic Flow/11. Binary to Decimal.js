@@ -1,3 +1,3 @@
-function binaryToDecimal([binaryNumber]) {
+function binaryToDecimal(binaryNumber) {
     console.log(Number('0b' + binaryNumber));
 }

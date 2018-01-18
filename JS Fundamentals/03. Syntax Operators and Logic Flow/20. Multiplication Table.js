@@ -1,13 +1,13 @@
 function getMultiplicationTable(n) {
     let result = '<table border="1">\n  <tr><th>x</th>';
     for (let i = 1; i <= n; ++i) {
-        result += `<td>${i}</td>`;
+        result += `<th>${i}</th>`;
     }
     result += '</tr>\n';
 
     for (let i = 1; i <= n; ++i) {
         result += `  <tr><th>${i}</th>`;
-        for (let j = 1; j <= n; ++j) {
+        for (let j = i, count = 1; count <= n; j += i, count++) {
             result += `<td>${j}</td>`;
         }
         result += '</tr>\n';
@@ -16,4 +16,3 @@ function getMultiplicationTable(n) {
 
     return result;
 }
-

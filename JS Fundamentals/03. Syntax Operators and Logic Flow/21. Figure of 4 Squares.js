@@ -1,4 +1,8 @@
 function getFigureOfSquares(n) {
+    if (n <= 2) {
+        return '+++';
+    }
+
     let dashes = '-'.repeat(n - 2);
     let whitespaces = ' '.repeat(n - 2);
 
@@ -15,4 +19,3 @@ function getFigureOfSquares(n) {
 
     return result;
 }
-
