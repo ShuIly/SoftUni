@@ -1,0 +1,1 @@
+(str) => str.match(/\b_[A-Za-z\d]+\b/g).map(s => s.slice(1)).join()

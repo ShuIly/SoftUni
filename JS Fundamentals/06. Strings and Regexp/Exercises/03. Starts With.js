@@ -1,0 +1,1 @@
+(str, subStr) => str.startsWith(subStr)
