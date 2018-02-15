@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-class Family
+public class Family
 {
     private List<Person> familyMembers;
 
