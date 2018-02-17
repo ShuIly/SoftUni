@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2010
+VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Defining Classes", "01. Defining Classes", "{E48C6FCB-E55B-47B0-A2BE-07D632121E6A}"
 EndProject
@@ -110,6 +110,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Vehicles Extension", "04. Polymorphism\Exercises\02. Vehicles Extension\02. Vehicles Extension.csproj", "{D922ACF5-95E7-4888-8DF3-8139600267AC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Wild farm", "04. Polymorphism\Exercises\03. Wild farm\03. Wild farm.csproj", "{B55679F1-F971-49FC-A402-A9538A70608B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{6F53CBEC-E0B8-4D1A-961E-1D54FCE75A39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -285,6 +287,10 @@ Global
 		{B55679F1-F971-49FC-A402-A9538A70608B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B55679F1-F971-49FC-A402-A9538A70608B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B55679F1-F971-49FC-A402-A9538A70608B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F53CBEC-E0B8-4D1A-961E-1D54FCE75A39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F53CBEC-E0B8-4D1A-961E-1D54FCE75A39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F53CBEC-E0B8-4D1A-961E-1D54FCE75A39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F53CBEC-E0B8-4D1A-961E-1D54FCE75A39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -340,6 +346,7 @@ Global
 		{AFCBDB1C-57AD-44F2-96B5-862B690C70EF} = {C6954DF2-1069-4587-9557-6ABC9716C154}
 		{D922ACF5-95E7-4888-8DF3-8139600267AC} = {C6954DF2-1069-4587-9557-6ABC9716C154}
 		{B55679F1-F971-49FC-A402-A9538A70608B} = {C6954DF2-1069-4587-9557-6ABC9716C154}
+		{6F53CBEC-E0B8-4D1A-961E-1D54FCE75A39} = {822240F4-3C4D-402F-B51F-C31D5A10C827}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A63DA2D-2250-441F-88CD-D92C2A4CBA97}
