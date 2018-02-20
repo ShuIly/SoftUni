@@ -1,68 +1,58 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text;
 
-class Topping
+public class Topping
 {
-    private static HashSet<string> validToppingTypes =
-        new HashSet<string>()
-        {
-            "meat", "veggies", "cheese", "sauce"
-        };
-
     private string type;
-    private int weight;
 
     public string Type
     {
-        get => this.type;
-        private set
+        get { return type; }
+        set
         {
-            if (!validToppingTypes.Contains(value.ToLower()))
+            string input = value.ToLower();
+            if (input == "meat" || input == "veggies" || input == "cheese" || input == "sauce")
             {
-                throw new ArgumentException($"Cannot place {value} on top of your pizza.");
+                this.type = value;
             }
-
-            this.type = value;
+            else throw new ArgumentException($"Cannot place {value} on top of your pizza.");
         }
     }
 
-    public int Weight
-    {
-        get => this.weight;
-        private set
-        {
-            if (value < 1 || value > 50)
-            {
-                throw new ArgumentException($"{this.Type} weight should be in the range [1..50].");
-            }
+    private double weight;
 
-            this.weight = value;
+    public double Weight
+    {
+        get { return weight; }
+        set
+        {
+            if (value >= 1 && value <= 50) this.weight = value;
+            else
+                throw new ArgumentException($"{Type} weight should be in the range [1..50].");
         }
     }
 
-    public double Calories { get; }
-
-    public Topping(string type, int weight)
+    public Topping(string type, double weight)
     {
-        this.Type = type;
-        this.Weight = weight;
+        Type = type;
+        Weight = weight;
+    }
 
-        this.Calories = 2 * this.Weight;
-
-        switch (this.Type.ToLower())
+    public double TotalCalories()
+    {
+        double multiplier = 0;
+        switch (Type.ToLower())
         {
-            case "meat":
-                this.Calories *= 1.2;
+            case "meat": multiplier = 1.2;
                 break;
-            case "veggies":
-                this.Calories *= 0.8;
+            case "veggies": multiplier = 0.8;
                 break;
-            case "cheese":
-                this.Calories *= 1.1;
+            case "cheese": multiplier = 1.1;
                 break;
-            case "sauce":
-                this.Calories *= 0.9;
+            case "sauce": multiplier = 0.9;
                 break;
         }
+        return 2 * Weight * multiplier;
     }
 }

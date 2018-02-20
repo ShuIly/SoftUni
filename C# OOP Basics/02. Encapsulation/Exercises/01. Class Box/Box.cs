@@ -1,19 +1,19 @@
 ﻿class Box
 {
-    private double length;
-    private double width;
-    private double height;
+    private decimal length;
+    private decimal width;
+    private decimal height;
 
-    public double SurfaceArea => 2 * this.length * this.width +
+    public decimal SurfaceArea => 2 * this.length * this.width +
         2 * this.length * this.height +
         2 * this.width * this.height;
 
-    public double LateralSurfaceArea => 2 * this.length * this.height +
+    public decimal LateralSurfaceArea => 2 * this.length * this.height +
         2 * this.width * this.height;
 
-    public double Volume => this.length * this.width * this.height;
+    public decimal Volume => this.length * this.width * this.height;
 
-    public Box(double length, double width, double height)
+    public Box(decimal length, decimal width, decimal height)
     {
         this.length = length;
         this.width = width;

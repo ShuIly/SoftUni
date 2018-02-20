@@ -1,97 +1,74 @@
 ﻿using System;
-using System.Collections.Generic;
 
-class Dough
+public class Dough
 {
     private string flourType;
-    private string bakingTechnique;
-    private int weight;
-
-    private static HashSet<string> validFlourTypes =
-        new HashSet<string>()
-        {
-            "white", "wholegrain"
-        };
-
-    private static HashSet<string> validBackingTechniques =
-        new HashSet<string>()
-        {
-            "crispy", "chewy", "homemade"
-        };
 
     public string FlourType
     {
-        get => this.flourType;
-        private set
+        get { return flourType; }
+        set
         {
-            if (!validFlourTypes.Contains(value.ToLower()))
-            {
-                throw new ArgumentException("Invalid type of dough.");
-            }
-
-            this.flourType = value;
+            if (value.ToLower() == "white" || value.ToLower() == "wholegrain") this.flourType = value;
+            else throw new ArgumentException("Invalid type of dough.");
         }
     }
+
+    private string bakingTechnique;
 
     public string BakingTechnique
     {
-        get => this.bakingTechnique;
-        private set
+        get { return bakingTechnique; }
+        set
         {
-            if (!validBackingTechniques.Contains(value.ToLower()))
+            string input = value.ToLower();
+            if (input == "crispy" || input == "chewy" || input == "homemade")
             {
-                throw new ArgumentException("Invalid type of dough.");
+                this.bakingTechnique = value;
             }
-
-            this.bakingTechnique = value;
+            else throw new ArgumentException("Invalid type of dough.");
         }
     }
 
-    public int Weight
-    {
-        get => this.weight;
-        private set
-        {
-            if (value < 1 || value > 200)
-            {
-                throw new ArgumentException("Dough weight should be in the range [1..200].");
-            }
+    private double weight;
 
-            this.weight = value;
+    public double Weight
+    {
+        get { return weight; }
+        set
+        {
+            if (value >= 1 && value <= 200) this.weight = value;
+            else throw new ArgumentException("Dough weight should be in the range [1..200].");
         }
     }
 
-    public double Calories { get; }
-
-    public Dough(string flourType, string bakingTechnique, int weight)
+    public Dough(string flourType, string bakingTechnique, double weight)
     {
-        this.FlourType = flourType;
-        this.BakingTechnique = bakingTechnique;
-        this.Weight = weight;
+        FlourType = flourType;
+        BakingTechnique = bakingTechnique;
+        Weight = weight;
+    }
 
-        this.Calories = 2 * this.Weight;
-
-        switch (this.FlourType.ToLower())
+    public double TotalCalories()
+    {
+        double flourMod = 0;
+        double bakingMod = 0;
+        switch (BakingTechnique.ToLower())
         {
-            case "white":
-                this.Calories *= 1.5;
+            case "crispy": bakingMod = 0.9;
                 break;
-            case "wholegrain":
-                this.Calories *= 1.0;
+            case "chewy": bakingMod = 1.1;
+                break;
+            case "homemade": bakingMod = 1.0;
                 break;
         }
-
-        switch (this.BakingTechnique.ToLower())
+        switch (FlourType.ToLower())
         {
-            case "crispy":
-                this.Calories *= 0.9;
+            case "white": flourMod = 1.5;
                 break;
-            case "chewy":
-                this.Calories *= 1.1;
-                break;
-            case "homemade":
-                this.Calories *= 1.0;
+            case "wholegrain": flourMod = 1.0;
                 break;
         }
+        return 2 * Weight * flourMod * bakingMod;
     }
 }

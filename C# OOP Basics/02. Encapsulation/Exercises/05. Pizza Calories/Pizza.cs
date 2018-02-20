@@ -2,58 +2,62 @@
 using System.Collections.Generic;
 using System.Linq;
 
-class Pizza
+public class Pizza
 {
     private string name;
-    private List<Topping> toppings;
-    private int numberOfToppings;
-
-    public Dough Dough { get; set; }
 
     public string Name
     {
-        get => this.name;
+        get { return name; }
         set
         {
-            if (String.IsNullOrEmpty(value) || value.Length > 15)
-            {
+            if (value.Length > 15 || string.IsNullOrEmpty(value) || string.IsNullOrWhiteSpace(value))
                 throw new ArgumentException("Pizza name should be between 1 and 15 symbols.");
-            }
-
             this.name = value;
         }
     }
 
+    private List<Topping> toppings;
+
+    public List<Topping> Toppings
+    {
+        get { return toppings; }
+        set => this.toppings = value;
+    }
+
+    private int numberOfToppings;
+    
     public int NumberOfToppings
     {
-        get => this.numberOfToppings;
-        private set
+        get { return numberOfToppings; }
+        set
         {
-            if (value < 0 || value > 10)
-            {
-                throw new ArgumentException("Number of toppings should be in range [0..10].");
-            }
-
+            if (value > 10 || value < 0) throw new ArgumentException("Number of toppings should be in range [0..10].");
             this.numberOfToppings = value;
         }
     }
 
-    public double TotalCalories => this.Dough.Calories + this.toppings.Sum(t => t.Calories);
 
-    public Pizza(string name, int numberOfToppings)
+    private Dough dough;
+
+    public Dough Dough
     {
-        this.Name = name;
-        this.NumberOfToppings = numberOfToppings;
-        this.toppings = new List<Topping>();
+        get { return dough; }
+        set { dough = value; }
+    }
+
+    public Pizza()
+    {
+        Toppings = new List<Topping>();
     }
 
     public void AddTopping(Topping topping)
     {
-        this.toppings.Add(topping);
+        toppings.Add(topping);
     }
 
     public override string ToString()
     {
-        return $"{this.Name} - {this.TotalCalories:F2} Calories.";
+        return $"{Name} - {Dough.TotalCalories() + Toppings.Sum(c => c.TotalCalories()):f2} Calories.";
     }
 }
