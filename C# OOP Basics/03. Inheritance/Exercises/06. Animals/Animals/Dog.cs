@@ -9,6 +9,6 @@ class Dog : Animal
 
     public override string ProduceSound()
     {
-        return "BauBau";
+        return "Woof!";
     }
 }

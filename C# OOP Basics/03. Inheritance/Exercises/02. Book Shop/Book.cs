@@ -32,7 +32,7 @@ class Book
             {
                 if (String.IsNullOrWhiteSpace(name) || Char.IsDigit(name[0]))
                 {
-                    throw new ArgumentException("Author not valid.");
+                    throw new ArgumentException("Author not valid!");
                 }
             }
 
@@ -66,6 +66,6 @@ class Book
         return $"Type: {this.GetType().Name}\n" +
             $"Title: {this.Title}\n" +
             $"Author: {this.Author}\n" +
-            $"Price: {this.Price:f1}\n";
+            $"Price: {this.Price:f2}\n";
     }
 }

@@ -9,6 +9,6 @@ class Tomcat : Cat, IProduceSound
 
     public new string ProduceSound()
     {
-        return "Give me one million b***h";
+        return "MEOW";
     }
 }

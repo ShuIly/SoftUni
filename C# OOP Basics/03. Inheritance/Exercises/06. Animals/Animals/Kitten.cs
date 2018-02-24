@@ -9,6 +9,6 @@ class Kitten : Cat, IProduceSound
 
     public new string ProduceSound()
     {
-        return "Miau";
+        return "Meow";
     }
 }

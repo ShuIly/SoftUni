@@ -9,6 +9,6 @@ class Cat : Animal
 
     public override string ProduceSound()
     {
-        return "MiauMiau";
+        return "Meow meow";
     }
 }
