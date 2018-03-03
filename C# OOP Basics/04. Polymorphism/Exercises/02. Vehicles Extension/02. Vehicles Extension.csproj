@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D922ACF5-95E7-4888-8DF3-8139600267AC}</ProjectGuid>
+    <ProjectGuid>{63FD6F8F-B39F-41AF-B9A9-7D5EB2B8321F}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_02.Vehicles_Extension</RootNamespace>
     <AssemblyName>_02.Vehicles_Extension</AssemblyName>
@@ -42,12 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bus.cs" />
-    <Compile Include="Car.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Entities\Bus.cs" />
+    <Compile Include="Entities\Car.cs" />
+    <Compile Include="Entities\Truck.cs" />
+    <Compile Include="Entities\Vehicle.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Truck.cs" />
-    <Compile Include="Vehicle.cs" />
+    <Compile Include="StartUp.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
