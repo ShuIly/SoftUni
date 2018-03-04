@@ -1,0 +1,12 @@
+<div id="list">
+    <h1>Contacts</h1>
+    <div class="content">
+        {{#each contacts}}
+            {{> contact}}
+            {{else}}
+            <div class="info">
+                <span>No contacts...</span>
+            </div>
+        {{/each}}
+    </div>
+</div>
