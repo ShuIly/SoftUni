@@ -1,4 +1,4 @@
-let result = (function () {
+(function () {
     class Textbox {
         constructor(selector, regex) {
             this.elements = $(selector);
@@ -72,13 +72,4 @@ let result = (function () {
         Textbox: Textbox,
         Form: Form
     }
-}())
-
-let Textbox = result.Textbox;
-let Form = result.Form;
-let username = new Textbox("#username", /[^a-zA-Z0-9]/);
-let password = new Textbox("#password", /[^a-zA-Z]/);
-username.value = "username";
-password.value = "password2";
-let form = new Form(username, password);
-form.attach("#root");
+})()
