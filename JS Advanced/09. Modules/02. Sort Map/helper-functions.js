@@ -1,8 +1,3 @@
-/**
- * Created by Stoyan on 15.7.2017 г..
- */
-
-
 let mapSort = function mapSorting(map, sortMethod) {
         if (sortMethod === 'KeysNumbersAsc') {
             map = new Map([...map].sort((a, b) => a[0] - b[0]));
@@ -35,15 +30,3 @@ let mapSort = function mapSorting(map, sortMethod) {
     };
 
 module.exports = mapSort;
-//let map = new Map();
-//map.set(3,"Pesho");
-//map.set(1,"Gosho");
-//map.set(7,"Aleks");
-//console.log(map);
-//console.log(mapSort(map));
-
-
-
-
-
-

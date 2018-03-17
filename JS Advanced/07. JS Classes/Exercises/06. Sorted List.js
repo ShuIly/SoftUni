@@ -1,4 +1,4 @@
-class SortedList {
+(class SortedList {
     constructor() {
         this.arr = [];
         this.size = 0;
@@ -25,4 +25,4 @@ class SortedList {
             return this.arr[index];
         }
     }
-}
+})()
