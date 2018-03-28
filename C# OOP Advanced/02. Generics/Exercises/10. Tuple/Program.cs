@@ -5,19 +5,16 @@ class Program
 {
     static void Main(string[] args)
     {
-        string[] firstInput = Console.ReadLine()
-            .Split(new[] {' '}, StringSplitOptions.RemoveEmptyEntries);
+        var input = Console.ReadLine().Split();
+        Tuple<string, string> tuple1 = new Tuple<string, string>(input[0] + " " + input[1], input[2]);
+        Console.WriteLine(tuple1);
 
-        string[] secondInput = Console.ReadLine()
-            .Split(new[] {' '}, StringSplitOptions.RemoveEmptyEntries);
+        input = Console.ReadLine().Split();
+        Tuple<string, int> tuple2 = new Tuple<string, int>(input[0], int.Parse(input[1]));
+        Console.WriteLine(tuple2);
 
-        string[] thirdInput = Console.ReadLine()
-            .Split(new[] {' '}, StringSplitOptions.RemoveEmptyEntries);
-
-        var tuple1 = new Thre<string, string>($"{firstInput[0]} {firstInput[1]}", firstInput[2]);
-        var tuple2 = new Tuple<string, int>(secondInput[0], int.Parse(secondInput[1]));
-        var tuple3 = new Tuple<int, double>(int.Parse(thirdInput[0]), double.Parse(thirdInput[1]));
-
-        Console.WriteLine(tuple1 + "\n" + tuple2 + "\n" + tuple3);
+        input = Console.ReadLine().Split();
+        Tuple<int, double> tuple3 = new Tuple<int, double>(int.Parse(input[0]), double.Parse(input[1]));
+        Console.WriteLine(tuple3);
     }
 }
